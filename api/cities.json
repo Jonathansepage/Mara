@@ -1,0 +1,110 @@
+[
+  {
+    "id": 0,
+    "name": "Los Angeles",
+    "subtitle": "The city of angels",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/0/0e/Echo_Park_Lake.jpg",
+    "interest_matching": 66,
+    "social_matching": 88,
+    "like_count": 50,
+    "price": 987,
+    "tags": [
+      "sun",
+      "beach",
+      "hollywood",
+      "party",
+      "art"
+    ],
+    "price_score": 20,
+    "relevance_score": 120,
+    "popularity_score": 231,
+    "pos": {
+      "lat": 34.05,
+      "lon": -118.25
+    },
+    "text": "Historically home to the Chumash and Tongva, Los Angeles was claimed by Juan Rodríguez Cabrillo for Spain in 1542 along with the rest of what would become Alta California. The city was officially founded on September 4, 1781, by Spanish governor Felipe de Neve. It became a part of Mexico in 1821 following the Mexican War of Independence.",
+    "categories": [
+      {
+        "id": 0,
+        "name": "Culture",
+        "score": 33
+      },
+      {
+        "id": 1,
+        "name": "Food",
+        "score": 92
+      },
+      {
+        "id": 2,
+        "name": "Nightlife",
+        "score": 66
+      },
+      {
+        "id": 3,
+        "name": "Outdoors",
+        "score": 11
+      },
+      {
+        "id": 4,
+        "name": "Shopping",
+        "score": 77
+      }
+    ],
+  },
+  {
+    "id": 1,
+    "name": "London",
+    "subtitle": "The capital and most populous city of England",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/3/3a/London_from_a_hot_air_balloon.jpg",
+    "interest_matching": 55,
+    "social_matching": 88,
+    "like_count": 90,
+    "price": 987,
+    "tags": [
+      "arts",
+      "commerce",
+      "education",
+      "entertainment",
+      "fashion",
+      "finance",
+      "healthcare",
+      "media",
+      "tourism"
+    ],
+    "price_score": 22,
+    "relevance_score": 130,
+    "popularity_score": 41,
+    "pos": {
+      "lat": 51.507222,
+      "lon": -0.1275
+    },
+    "text": "London is a world cultural capital. It is the world's most-visited city as measured by international arrivals and has the world's largest city airport system measured by passenger traffic. London's 43 universities form the largest concentration of higher education institutes in Europe.",
+    "categories": [
+      {
+        "id": 0,
+        "name": "Culture",
+        "score": 33
+      },
+      {
+        "id": 1,
+        "name": "Food",
+        "score": 92
+      },
+      {
+        "id": 2,
+        "name": "Nightlife",
+        "score": 66
+      },
+      {
+        "id": 3,
+        "name": "Outdoors",
+        "score": 11
+      },
+      {
+        "id": 4,
+        "name": "Shopping",
+        "score": 77
+      }
+    ],
+  }
+]

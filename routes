@@ -1,0 +1,22 @@
+# format
+# METHOD route #comment (url_parameters: Type)(mandatory_body_parameters: Type, optional_body_parameter?: Type) [return]
+
+GET     /api/users    # show a user [user.json]
+
+GET     /api/cities                 # list cities ()(max_price?: Int, date_begin?: Int, date_end?: Int, duration?: Int, offset?: Int, limit?: Int) [cities.json]
+GET     /api/cities/liked           # list liked cities ()(offset?: Int, limit?: Int) [cities.json]
+GET     /api/cities/disliked        # list disliked cities ()(offset?: Int, limit?: Int) [cities.json]
+GET     /api/cities/:id             # show a city (id: Int) [city.json]
+POST    /api/cities/:id/like        # like a city (id: Int)
+DELETE  /api/cities/:id/like        # unlike a city (id: Int)
+POST    /api/cities/:id/dislike     # reject a city (id: Int)
+DELETE  /api/cities/:id/dislike     # unreject a city (id: Int)
+
+GET     /api/playlists                   # list playlists ()(offset?: Int, limit?: Int) [playlists.json]
+GET     /api/playlists/:id               # show a playlist (id: Int) [playlist.json]
+POST    /api/playlists                   # create a playlist ()(title: String) [playlist.json]
+DELETE  /api/playlists/:id               # destroy a playlist (id: Int)
+PUT     /api/playlists/:id/copy          # copy a playlist owned by another user into the playlists of the authenticated user (id: Int) [playlist.json]
+PUT     /api/playlists/:id               # update a playlist (id: Int) [playlist.json]
+POST    /api/playlists/:id/cities        # add a city to a playlist (id: Int) [playlist.json]
+DELETE  /api/playlists/:id/cities/:city  # remove a city from a playlist (id: Int, city: Int)(from?: Int, destination?: Int, max_price?: Int, date_begin?: Int, date_end?: Int, duration?: Int, people?: Int)
