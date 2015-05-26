@@ -1,2 +1,5 @@
-# Mara-API
-API specs and samples for Mara application
+# Mara
+
+API specs are located under `api` directory.
+
+Front-end application is located under `app`.
