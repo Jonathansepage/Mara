@@ -2,6 +2,7 @@
   {
     "id": 0,
     "title": "The best one",
+    "thumbnail": "http://upload.wikimedia.org/wikipedia/commons/0/0e/Echo_Park_Lake.jpg",
     "cities": [
       {"id": 0, "name": "Los Angeles"},
       {"id": 1, "name": "London"},
@@ -12,6 +13,7 @@
   {
     "id": 1,
     "title": "The backup",
+    "thumbnail": "http://upload.wikimedia.org/wikipedia/commons/5/5c/Sydney_skyline_at_dusk_-_Dec_2008.jpg",
     "cities": [
       {"id": 0, "name": "Sydney"},
       {"id": 1, "name": "Moscow"},
