@@ -18,8 +18,8 @@
       "art"
     ],
     "price_score": 20,
-    "relevance_score": 120,
-    "popularity_score": 231,
+    "relevance_score": 90,
+    "popularity_score": 91,
     "pos": {
       "lat": 34.05,
       "lon": -118.25
@@ -76,7 +76,7 @@
       "tourism"
     ],
     "price_score": 22,
-    "relevance_score": 130,
+    "relevance_score": 30,
     "popularity_score": 41,
     "pos": {
       "lat": 51.507222,
@@ -131,7 +131,7 @@
     ],
     "price_score": 34,
     "relevance_score": 89,
-    "popularity_score": 240,
+    "popularity_score": 80,
     "pos": {
       "lat": 37.783333,
       "lon": -122.416667
@@ -185,8 +185,8 @@
       "spider"
     ],
     "price_score": 20,
-    "relevance_score": 120,
-    "popularity_score": 231,
+    "relevance_score": 100,
+    "popularity_score": 31,
     "pos": {
       "lat": 34.05,
       "lon": -118.25
@@ -239,8 +239,8 @@
       "art"
     ],
     "price_score": 20,
-    "relevance_score": 120,
-    "popularity_score": 231,
+    "relevance_score": 12,
+    "popularity_score": 78,
     "pos": {
       "lat": 41.383333,
       "lon": 2.183333
