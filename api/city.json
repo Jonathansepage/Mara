@@ -3,6 +3,7 @@
   "name": "Los Angeles",
   "subtitle": "The city of angels",
   "picture": "http://upload.wikimedia.org/wikipedia/commons/0/0e/Echo_Park_Lake.jpg",
+  "liked": true,
   "interest_matching": 66,
   "social_matching": 88,
   "like_count": 50,
