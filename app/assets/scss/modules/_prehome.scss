@@ -1,0 +1,78 @@
+#prehome{
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+	@extend .bg-full;
+
+	.grip{
+		left: 0;
+		position: absolute;
+		top: 40%;
+		width: 100%;
+		p{
+			color: $grey666;
+			font: normal 28px/32px $helveticaL;
+			text-align: center;
+			text-transform: uppercase;
+			visibility: hidden;
+			width: 100%;
+			&:nth-child(2){
+				font: normal 65px/70px $helveticaB;
+			}
+		}
+	}
+
+	.login{
+		$btH : 46px;
+		bottom: 30px;
+		left: 0;
+		position: absolute;
+		text-align: center;
+		visibility: hidden;
+		width: 100%;
+
+		.fb-login{
+			border-radius: 4px;
+			display: inline-block;
+			height: $btH;
+			padding: 0 55px;
+			position: relative;
+			z-index: 1;
+			//
+			//@include transition(all .2s);
+			 background-position:400% 400%;
+			&:hover{
+				animation: gradientAnim .51s ease;
+			}
+			span{
+				font: normal 14px/#{$btH} $helveticaL;
+				text-transform: uppercase;
+				&:before{
+					font: normal  18px/#{$btH - 4px} $icomoon;
+					margin-right: 20px;
+					position: relative;
+					top: 2px;
+				}
+			}
+		}
+
+		.fb-loader{
+			background: url('../images/fb-loader.gif') top left no-repeat transparent;
+			height: 32px;
+			left: 50%;
+			position: absolute;
+			top: 8px;
+			width: 32px;
+			z-index: 0;
+			@include transform(translateX(-50%));
+		}
+
+		.description{
+			font: normal 14px/16px $helveticaL;
+			margin-top: 20px;
+		}
+	}
+}

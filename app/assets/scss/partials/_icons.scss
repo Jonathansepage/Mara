@@ -1,0 +1,103 @@
+// ICONS -------------------------------------------------------------
+// -------------------------------------------------------------------
+@font-face {
+    font-family: 'icomoon';
+    src:url('../font/icomoon.eot?e687fu');
+    src:url('../font/icomoon.eot?#iefixe687fu') format('embedded-opentype'),
+        url('../font/icomoon.woff?e687fu') format('woff'),
+        url('../font/icomoon.ttf?e687fu') format('truetype'),
+        url('../font/icomoon.svg?e687fu#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-info:before {
+    content: "\e618";
+}
+.icon-boussole:before {
+    content: "\e601";
+}
+.icon-people:before {
+    content: "\e615";
+}
+.icon-add:before {
+    content: "\e600";
+}
+.icon-favlist:before {
+    content: "\e602";
+}
+.icon-flight:before {
+    content: "\e603";
+}
+.icon-heart-broken:before {
+    content: "\e604";
+}
+.icon-heart:before {
+    content: "\e605";
+}
+.icon-hotel:before {
+    content: "\e606";
+}
+.icon-logo:before {
+    content: "\e607";
+}
+.icon-people2:before {
+    content: "\e608";
+}
+.icon-plane:before {
+    content: "\e609";
+}
+.icon-untitled:before {
+    content: "\e60a";
+}
+.icon-sync:before {
+    content: "\e60b";
+}
+.icon-cross:before {
+    content: "\e60c";
+}
+.icon-heart2:before {
+    content: "\e60d";
+}
+.icon-arrow-right:before {
+    content: "\e616";
+}
+.icon-arrow-left:before {
+    content: "\e617";
+}
+.icon-cross2:before {
+    content: "\e60e";
+}
+.icon-search:before {
+    content: "\e60f";
+}
+.icon-arrow-down:before {
+    content: "\e610";
+}
+.icon-arrow-up:before {
+    content: "\e611";
+}
+.icon-list:before {
+    content: "\e612";
+}
+.icon-world:before {
+    content: "\e613";
+}
+.icon-facebook:before {
+    content: "\e614";
+}

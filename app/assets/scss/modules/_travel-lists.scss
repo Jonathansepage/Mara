@@ -1,0 +1,9 @@
+#travel-lists{
+	padding: $header-height 0 0 0;
+	.inner-nav{
+		padding: 0 $inner-gutter 0 $sidebarLeft-width;
+		li{
+			margin: 0 0 0 $inner-gutter;
+		}
+	}
+}

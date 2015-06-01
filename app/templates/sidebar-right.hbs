@@ -1,0 +1,35 @@
+<div class="sidebar right">
+	<a href="../home" class="icon-list"></a>
+	<div class="bt up icon-arrow-up"></div>
+	<div class="v-wrapper">
+		<div class="v-list">
+			{{#each resultList}}
+			<a href="{{id}}" class="push type-sidebar">
+				<div class="visual" style="background-image:url('{{this.picture}}')"></div>
+				<div class="infos">
+					<div class="city">{{this.name}},</div>
+					<div class="country">{{this.country}}</div>
+					<div class="match personnal">
+						<div class="bar">
+							<div class="score gradient" style="width: {{interest_matching}}%;"></div>
+						</div>
+					</div>
+					<div class="match social">
+						<div class="bar">
+							<div class="score gradient-red" style="width: {{social_matching}}%;"></div>
+						</div>
+					</div>
+				</div>
+				<div class="price-wrapper">
+					<div class="price">
+						<div class="from">{{../from}}</div>
+						{{price}} &euro;
+					</div>
+				</div>
+			</a>
+			
+			{{/each }}
+		</div>
+	</div>
+	<div class="bt down icon-arrow-down"></div>
+</div>

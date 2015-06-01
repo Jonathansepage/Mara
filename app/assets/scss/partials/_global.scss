@@ -1,0 +1,136 @@
+// BREAK POINT -------------------------------------------------------
+// -------------------------------------------------------------------
+$br-XL          : 1260px;
+$br-L           : 1170px;
+$br-L2          : 1025px;//1060px;
+$br-L3          : 1000px;
+$br-M           : 960px;
+$br-M2          : 840px;
+$br-S           : 765px;
+$br-S2          : 640px;
+$br-XS          : 550px;
+$br-XS2         : 450px;
+
+@mixin breakpoint($point) {
+@if $point == br-XL {
+        @media (max-width: $br-XL) { @content; }
+    }
+@if $point == br-L {
+        @media (max-width: $br-L) { @content; }
+    }
+@else if $point == br-L2 {
+        @media (max-width: $br-L2) { @content; }
+    }
+@else if $point == br-L3 {
+        @media (max-width: $br-L3) { @content; }
+    }
+@else if $point == br-M {
+        @media (max-width: $br-M) { @content; }
+    }
+@else if $point == br-M2 {
+        @media (max-width: $br-M2)  { @content; }
+    }
+@else if $point == br-S {
+        @media (max-width: $br-S)  { @content; }
+    }
+@else if $point == br-S2 {
+        @media (max-width: $br-S2)  { @content; }
+    }
+@else if $point == br-XS {
+        @media (max-width: $br-XS)  { @content; }
+    }
+@else if $point == br-XS2 {
+    @media (max-width: $br-XS2)  { @content; }
+    }
+}
+
+
+
+// COMMON STYLES -----------------------------------------------------
+
+// ::selection {
+//     color: white;
+//     background: black; /* WebKit/Blink Browsers */
+// }
+// ::-moz-selection {
+//     color: white;
+//     background: black; /* Gecko Browsers */
+// }
+
+// html, body{
+//     position: relative;
+//     width: 100%;
+// }
+
+.no-scroll{
+    overflow: hidden;
+}
+
+
+input, textarea, button {
+    -webkit-appearance: none; /*Safari/Chrome*/
+    -moz-appearance: none; /*Firefox*/
+    -ms-appearance: none; /*IE*/
+    -o-appearance: none; /*Opera*/
+    appearance: none;
+
+    -webkit-border-radius: 0;
+     outline: none;
+
+}
+
+
+// WRAPPER ------------------------------------------------------
+.wrapper{
+    overflow: hidden;
+    position: relative;
+    width: 100%; // box sizing inside ;)
+    @include perspective(0);
+}
+
+.gen-wrapper{
+    margin: 0 auto;
+    // max-width: $max-width; // ça décentrait complètement le contenu de la home au dessus de 1400px de large
+    padding: 0 $main-gutter;
+    position: relative;
+    width: 100%;
+    @include box-sizing;
+}
+
+.wrapper-fixed-width{
+    margin: 0 auto;
+    position: relative;
+    max-width: $fixed-width;
+    width:100%;
+}
+
+.bg-full{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.w-50{
+    float: left;
+    position: relative;
+    width: 50%;
+}
+
+
+// CLASS UTILS ----------------------------------------------------
+.table{
+    display: table;
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}
+.table-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.p-r{
+    position: relative;
+}
+

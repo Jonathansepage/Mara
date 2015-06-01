@@ -1,0 +1,33 @@
+<div class="popin-playlist">
+    <div class="content">
+      <div class="bt-close icon-cross"></div>
+      <div class="added-city">
+        <div style="background-image: url('{{addedCity.picture}}');" alt="" class="visual"></div>
+        <div class="texts">
+          <div class="city-name">{{addedCity.name}}, <span class="country-name">{{addedCity.country}}</span></div>
+          <div class="grip">{{addedCity.subtitle}}</div>
+        </div>
+      </div>
+      <div class="selection-block">
+        <div class="title">{{popin-add-to-playlist.select}}</div>
+        <div class="input-wrapper icon-search">
+          <input type="text" placeholder="Search">
+        </div>
+        
+      </div>
+      <div class="list-wrapper">
+        {{#each PL}}
+        <div class="item-playlist" data-id="{{id}}">
+          <div class="visual" style="background-image: url('{{picture}}');"></div>
+            {{title}}
+            <div class="bt-add">+</div>
+        </div>
+        {{/each}}
+      </div>
+
+      <div class="bt-new-pl">
+        <div class="picto"><input type="text" value="+"></div>
+        <span class="wording">{{popin-add-to-playlist.create}}</span>
+      </div>
+    </div>
+</div>

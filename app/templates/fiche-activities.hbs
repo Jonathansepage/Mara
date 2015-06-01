@@ -1,0 +1,81 @@
+<div data-index="0" class="tab-content active" id="fiche-activities">
+	<div class="inner-nav tabs">
+		<ul class="list inline-nowrap">
+			<li>
+				<a class="tab active" href="all" data-index="-1" class="active">{{fiche.activities.allCategories}}</a>
+			</li>
+			{{#each city.categories}}
+			<li>
+				<a class="tab" href="{{id}}" data-index="{{@index}}">{{name}}</a>
+			</li>
+			{{/each}}
+		</ul>
+	</div>
+	<div class="inner-content">
+		<div class="col left">
+			<div id="map"></div>
+		</div>
+		<div class="col right">
+			<div class="pies-comparator">
+			
+				<div class="pies-nav">
+					<div class="bt left">
+						<div class="picto icon-arrow-left"></div>
+						<div class="in">{{fiche.activities.in}}</div>
+						<div class="city">City</div>
+					</div>
+					<div class="bt right">
+						<div class="picto icon-arrow-right"></div>
+						<div class="in">{{fiche.activities.in}}</div>
+						<div class="city">City</div>
+					</div>
+				</div>
+			</div>
+			<div class="activities-list">
+				<div class="push type-fiche-activities active">
+					<a href="" class="visual" data-id="">
+						<div class="local-loader"></div>
+					</a>
+					<div class="content">
+						<div class="infos">
+							<a href="" data-id="" class="like icon-heart2"></a>
+							<div class="grip">You like Art Nouveau, right ?</div>
+							<div class="title">Sagrada Familia</div>
+							<div class="description">Construction of Sagrada Família had commenced in 1882 and Gaudí became involved in 1883 taking over the project and transforming it with his architectural and engineering style...</div>
+							<a href="http://wikipedia.com" class="read-more icon-info">Read more on Wikipedia</a>
+						</div>
+					</div>
+				</div>
+				<div class="push type-fiche-activities">
+					<a href="" class="visual" data-id="">
+						<div class="local-loader"></div>
+					</a>
+					<div class="content">
+						<div class="infos">
+							<a href="" data-id="" class="like icon-heart"></a>
+							<div class="grip">You like Art Nouveau, right ?</div>
+							<div class="title">Sagrada Familia</div>
+							<div class="description">Construction of Sagrada Família had commenced in 1882 and Gaudí became involved in 1883 taking over the project and transforming it with his architectural and engineering style...</div>
+							<a href="http://wikipedia.com" class="read-more icon-info">Read more on Wikipedia</a>
+						</div>
+					</div>
+				</div>
+				<div class="push type-fiche-activities">
+					<a href="" class="visual" data-id="">
+						<div class="local-loader"></div>
+					</a>
+					<div class="content">
+						<div class="infos">
+							<a href="" data-id="" class="like icon-heart"></a>
+							<div class="grip">You like Art Nouveau, right ?</div>
+							<div class="title">Sagrada Familia</div>
+							<div class="description">Construction of Sagrada Família had commenced in 1882 and Gaudí became involved in 1883 taking over the project and transforming it with his architectural and engineering style...</div>
+							<a href="http://wikipedia.com" class="read-more icon-info">Read more on Wikipedia</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bt-seemore gradient">{{fiche.activities.seemore}}</div>
+		</div>
+	</div>
+</div>

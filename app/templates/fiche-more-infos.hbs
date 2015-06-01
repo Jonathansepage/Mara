@@ -1,0 +1,40 @@
+<div data-index="2" class="tab-content" id="fiche-more-infos">
+	<div class="inner-nav tabs">
+		<ul class="list inline-nowrap">
+			{{#each fiche.moreInfos.innerTabs}}
+			<li>
+				<a class="tab {{#if @first}}active{{/if}}" href="" data-index="{{@index}}">{{name}}</a>
+			</li>
+			{{/each}}
+		</ul>
+	</div>
+	<div class="tab-contents">
+		<div data-index="0" class="tab-content active" id="">
+				<div class="col left">
+					#{{city.name}} {{fiche.moreInfos.innerTabs.0.instagram}}
+				</div>
+				<div class="col right">
+					<div class="push type-2cols">
+						<div class="col1 w-50">
+							<div class="title">{{fiche.moreInfos.innerTabs.0.location}}</div>
+
+						</div>
+						<div class="col2 w-50">
+							<div class="title"></div>
+							{{city.text}}
+						</div>
+					</div>
+					<div class="push type-2cols">
+						<div class="col1 w-50">
+							<div class="title">{{fiche.moreInfos.innerTabs.0.weather}}</div>
+
+						</div>
+						<div class="col2 w-50">
+							<div class="title">{{fiche.moreInfos.innerTabs.0.language}}</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+	
+</div>

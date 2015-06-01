@@ -1,0 +1,58 @@
+<div class="list-results">
+{{#each resultList}}
+	<div class="push type-home" data-id="{{id}}"> 
+		<a href="fiche/{{id}}" class="visual">
+			<div class="local-loader"></div>
+		</a>
+		<div class="content">
+			<ul class="pictos-list">
+				<li><a href="" class="icon-add"></a></li>
+				<li><a href="" class="icon-heart"></a></li>
+				<li><a href="" class="icon-heart-broken"></a></li>
+			</ul>
+			<div class="infos">
+				<div class="likes icon-heart2">{{like_count}}</div>
+				<a href="fiche/{{id}}">
+					<span class="city">{{name}}, </span>
+					<span class="country">{{country}}</span>
+				</a>
+				<div class="grip">{{subtitle}}</div>
+				<div class="wrapper-cols">
+					<div class="w-50">
+						<div class="col-title">{{../tags-title}}</div>
+						<div class="tags-wrapper">
+							{{#each tags}}
+							<span class="tag">{{this}}</span>
+							{{/each}}
+						</div>
+					</div>
+					<div class="w-50">
+						<div class="col-title">{{../matching-title}}</div>
+						<div class="match personnal">
+							<div class="title-match icon-people">{{../perso-title}}</div>
+							<div class="bar">
+								<div class="score gradient" style="width: {{interest_matching}}%;"></div>
+							</div>
+						</div>
+						<div class="match social">
+							<div class="title-match icon-people2">{{../social-title}}</div>
+							<div class="bar">
+								<div class="score gradient-red" style="width: {{social_matching}}%;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="booking-infos">
+				<div class="price-wrapper">
+					<div class="price">
+						<div class="from">{{../from}}</div>
+						{{price}} &euro;
+					</div>
+				</div>
+				<a href="" class="bt-book-now"><span class="icon-plane">{{../book-now}}</span></a>
+			</div>
+		</div>
+	</div>
+{{/each}}
+</div>

@@ -1,0 +1,39 @@
+.booking-form-wrapper{
+    height: $headerForm-initH;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: $header-height;
+    width: 100%;
+    z-index: 60;
+    @include transform(translateY(-100%));
+    @include transition(all .5s ease-out);
+
+    &.active{
+        @include transform(translateY(0));
+    }
+    .header-wrapper{
+       height: $headerForm-initH;
+       padding: 0 0 0 $sidebarLeft-width + $inner-gutter;
+       position: relative;
+       width: 100%;
+
+        .title, .title-bis{
+            color: white;
+            font: normal 14px/#{$headerForm-initH} $helveticaLI;
+            text-transform: uppercase;
+        }
+
+        .title{
+            cursor: pointer;
+        }
+
+        .title-bis{
+            
+        }
+
+        .booking-summary{
+
+        }
+    }
+}

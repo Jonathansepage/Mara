@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "title": "The best one",
+    "cities": [
+      {"id": 0, "name": "Los Angeles"},
+      {"id": 1, "name": "London"},
+      {"id": 2, "name": "San Francisco"},
+      {"id": 3, "name": "Paris"}
+    ]
+  },
+  {
+    "id": 1,
+    "title": "The backup",
+    "cities": [
+      {"id": 0, "name": "Sydney"},
+      {"id": 1, "name": "Moscow"},
+      {"id": 2, "name": "Stockholm"},
+      {"id": 3, "name": "Montreal"}
+    ]
+  }
+]

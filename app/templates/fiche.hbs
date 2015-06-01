@@ -1,0 +1,72 @@
+
+		<div id="fiche">
+			<div class="main-visual" style="background-image: url('{{city.picture}}');"></div>
+			<div class="main-content">
+				<div class="push type-fiche">
+					<div class="content">
+						<ul class="pictos-list">
+							<li><a href="" class="icon-add"></a></li>
+							<li><a href="" class="icon-heart"></a></li>
+							<li><a href="" class="icon-heart-broken"></a></li>
+						</ul>
+						<div class="infos">
+							<div class="likes icon-heart2">{{city.like_count}}</div>
+							<span class="city">{{city.name}}, </span>
+							<span class="country">{{city.country}}</span>
+							<div class="grip">{{city.subtitle}}</div>
+							<div class="wrapper-cols">
+								<div class="w-50">
+									<div class="col-title">{{home-list-view.tags-title}}</div>
+									<div class="tags-wrapper">
+										{{#each city.tags}}
+										<span class="tag">{{this}}</span>
+										{{/each}}
+									</div>
+								</div>
+								<div class="w-50">
+									<div class="col-title">{{home-list-view.matching-title}}</div>
+									<div class="match personnal">
+										<div class="title-match icon-people">{{home-list-view.perso-title}}</div>
+										<div class="bar">
+											<div class="score gradient" style="width: {{city.interest_matching}}%;"></div>
+										</div>
+									</div>
+									<div class="match social">
+										<div class="title-match icon-people2">{{home-list-view.social-title}}</div>
+										<div class="bar">
+											<div class="score gradient-red" style="width: {{city.social_matching}}%;"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="booking-infos">
+							<div class="price-wrapper">
+								<div class="price">
+									<div class="from">{{home-list-view.from}}</div>
+									{{city.price}} &euro;
+								</div>
+							</div>
+							<a href="" class="bt-book-now"><span class="icon-plane">{{home-list-view.book-now}}</span></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="subnav tabs">
+					<ul class="list inline-nowrap">
+						{{#each fiche.tabs}}
+						<li>
+							<a href="" data-index="{{@index}}" class="subnav-item tab {{#if @first}}active{{/if}}">{{title}}</a>
+						</li>
+						{{/each}}
+					</ul>
+				</div>
+				<div class="tab-contents">
+					{{!-- {{#each fiche.tabs}}
+					<div data-index="{{@index}}" class="tab-content {{#if @first}}active{{/if}}"></div>
+					{{/each}} --}}
+				</div>
+				
+			</div>
+
+		</div>

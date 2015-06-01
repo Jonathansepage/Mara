@@ -1,0 +1,30 @@
+// LISTS -----------------------------------------------------------
+// -------------------------------------------------------------------
+
+.list{
+	list-style-type: none;
+	position: relative;
+
+	>li{
+		position: relative;
+	}
+
+	&.inline-nowrap{
+		font-size: 0;
+		white-space: nowrap;
+		>li{
+           display: inline-block;
+            *display: inline;
+            word-wrap: break-word;
+            @media only screen and (max-width : 950px) {
+            	white-space: normal;
+			}
+        }
+	}
+
+	&.inline-wrap{
+		>li{
+            float: left;
+        }
+	}
+}

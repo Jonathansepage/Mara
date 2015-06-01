@@ -1,0 +1,226 @@
+.popin-playlist{
+   background: rgba(0, 0, 0, .85);
+   height: 100%;
+   left: 0;
+   position: fixed;
+   top: 0;
+   visibility: hidden;
+   width: 100%;
+   visibility: hidden;
+   z-index: 90;
+
+   .content{
+        background: white;
+        height: 90%;
+        left: 50%;
+        margin: 0 0 0 -187px;
+        overflow: hidden;
+        padding: 50px 20px;
+        position: absolute;
+        top: 5%;
+        width: 374px;
+        @include box-sizing;
+   }
+
+   .bt-close{
+        cursor: pointer;
+        font-size: 9px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+   }
+
+    .visual{
+        background-color: $greyED;
+        width: 100%;
+        @extend .bg-full;
+        &:before{
+            content:'';
+            display: block;
+            padding-top: 61%;
+        }
+    }
+
+    .texts{
+        border-bottom: 1px solid $greyED;
+        border-left: 1px solid $greyED;
+        border-right: 1px solid $greyED;
+        padding: 20px 15px;
+        width: 100%;
+        @include box-sizing;
+
+        .city-name{
+            color: $grey33;
+            font: normal 28px/28px $helveticaB;
+            text-transform: uppercase;
+        }
+
+        .country-name{
+            color: $grey666;
+            font: normal 28px/28px $helveticaL;
+            text-transform: initial;
+        }
+
+        .grip{
+            color: $grey666;
+            font: normal 14px/16px $helveticaL;
+            margin: 4px 0 0 0;
+        }
+    }
+
+    .selection-block{
+        padding: 35px 0 20px 0;
+        width: 100%;
+
+        .title{
+            color: $grey666;
+            font: normal 14px/14px $helveticaM;
+            text-transform: uppercase;
+        }
+        
+        .input-wrapper{
+            background-color: $greyED;
+            margin: 15px 0 0 0;
+            position: relative;
+            &:before{
+                color: $grey666;
+                font-size: 18px;
+                position: absolute;
+                top: 11px;
+                left: 17px;
+            }
+        }
+        input{
+            background-color: transparent;
+            border: 0;
+            font: normal 14px/42px $helveticaM;
+            padding: 0 10px 0 60px;
+            width: 100%;
+            @include box-sizing;
+        }
+    }
+
+    .list-wrapper{
+        //max-height: 13%;
+        overflow: auto;
+        width: 100%;
+    }
+
+    .item-playlist{
+        $itemHeight: 32px;
+        color: $grey33;
+        cursor: pointer;
+        display: block;
+        font: normal 12px/#{$itemHeight} $helveticaM;
+        margin: 10px 0 0 0;
+        position: relative;
+        text-transform: uppercase;
+        @include transition(all .2s);
+        .visual{
+            float: left;
+            height: $itemHeight;
+            margin: 0 10px 0 0;
+            width: 52px;
+            @include box-sizing;
+        }
+        .bt-add{
+            background: $lightBlue;
+            color: white;
+            display: none;
+            font: normal 14px/#{$itemHeight} $sans;
+            height: $itemHeight;
+            position: absolute;
+            right:0;
+            text-align: center;
+            top: 0;
+            width: $itemHeight;
+            @include transition(all .3s);
+        }
+        &:first-child{
+            margin-top: 0;
+        }
+
+        &.selected{
+            background-color: $greyF7;
+            color: $grey27;
+            .bt-add{
+                display: block;
+            }
+            &:hover{
+                background-color: $greyED;
+                .bt-add{
+                    background: $darkBlue;
+                }
+            }
+        }
+    }
+    
+
+    .bt-new-pl{
+        background: white;
+        color: $lightBlue;
+        cursor: pointer;
+        display: block;
+        font: normal 12px/32px $helveticaM;
+        height: 32px;
+        position: absolute;
+        left: 20px;
+        bottom: 50px;
+        text-transform: uppercase;
+        width: 100%;
+        .picto{
+            border: 3px solid $lightBlue;
+            display: inline-block;
+            float: left;
+            font: normal 20px/26px $helveticaL;
+            height: 32px;
+            left: 0;
+            margin: 0 10px 0 0;
+            overflow: hidden;
+            position: absolute;
+            text-align: center;
+            top: 0;
+            width: 52px;
+            z-index: 1;
+            @include box-sizing;
+            @include transition(width .3s);
+            input{
+                background-color: white;
+                border: 0;
+                color: $lightBlue;
+                font: normal 20px/26px $helveticaL;
+                height: 100%;
+                padding: 0 5px;
+                text-align: center;
+                width: 100%;
+                @include box-sizing;
+            }
+        }
+
+        .wording{
+            display: inline-block;
+            left: 62px;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            white-space: nowrap;
+            width: 50%;
+            @include transition(all .3s);
+        }
+
+        &.opened{
+            .picto{
+                width: 330px;
+                input{
+                    font-size: 14px;
+                    text-align: left;
+                }
+            }
+            .wording{
+                height: 0;
+                width:0;
+            }
+        }
+    }
+
+}

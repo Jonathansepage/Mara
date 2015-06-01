@@ -1,0 +1,246 @@
+.sidebar{
+    background: $grey34;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 70;
+    @include transition(all .2s);
+
+    &.left{
+        left: 0;
+        padding-top: $header-height;
+        width: $sidebarLeft-width;
+        @include transform(translateX(-100%));
+    }
+    &.right{
+        right: 0;
+        width: $sidebarRight-width;
+        @include transform(translateX(100%));
+    }
+    &.active{
+        @include transform(translateX(0));
+    }
+    
+    // LEFT
+    .search-wrapper{
+        background: transparent;
+        height: $headerForm-initH;
+        width: $sidebarLeft-width;
+        left: 0;
+        position: absolute;
+        top: $header-height;
+        @include transition(background-color .2s);
+        &.opened{
+            background: rgba(3, 3, 3, .95);
+            z-index: 1;
+        }
+        &:not(.opened){
+            &:hover{
+                background: rgba(3, 3, 3, .95);
+                .search-cta{
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .search-content{
+            height: 100%;
+            overflow: hidden;
+            padding: 0 $inner-gutter 0 100px;
+            width: 100%;
+            @include box-sizing;
+        }
+
+        .bt-close{
+            color: white;
+            display: none;
+            height: 21px;
+            position: absolute;
+            right: $inner-gutter;
+            top: 19px;
+            width: 21px;
+            @include transition(all .2s);
+            &:before{
+                position: absolute;
+                top: -5px;
+                left: -5px;
+                font-size: 30px;
+            }
+            &:hover{
+                color: $lightBlue;
+            }
+            &.active{
+                cursor: pointer;
+                display: block;
+            }
+        }
+
+        #searchinput{
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid $greyCC;
+            color: $greyCC;
+            font: normal 48px/70px $helveticaL;
+            width: 100%;
+        }
+
+        .wrapper-search-results{
+            margin-top: 2%;
+            overflow: auto;
+            position:relative;
+            width: 100%;
+        }
+    }
+
+    .search-cta{
+        color: $grey666;
+        height: $headerForm-initH;
+        width: $sidebarLeft-width;
+        text-align: center;
+        @include transition(all .2s);
+        &:before{
+            font-size: 19px;
+            line-height: $headerForm-initH;
+            
+        }
+    }
+
+    .user-nav{
+        $entryH: 67px;
+        left: 0;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        z-index: 0;
+        @include transform(translateY(-55%));
+        li{
+            border-bottom: 1px solid $grey3E;
+            height: $entryH;
+            position: relative;
+            width: 100%;
+            @include transition(all .2s);
+            &.first-child{
+                border-top: 1px solid $grey3E;
+                a{
+                    border-top: 1px solid $grey33;
+                }
+            }
+            a{
+                border-bottom: 1px solid $grey33;
+                color: white;
+                display: block;
+                height: 100%;
+                text-align: center;
+                width: 100%;
+                @include transition(all .2s);
+                &:before{
+                    color: white;
+                    font-size: 24px;
+                    line-height: $entryH;
+                    @include transition(all .2s);
+                }
+
+                .gradient{
+                    bottom: 0;
+                    height: 4px;
+                    left: 0;
+                    opacity: 0;
+                    position: absolute;
+                    width: 100%;
+                    @include transition(all .2s);
+                }
+            }
+
+            &:hover, &.active{
+                background-color: $grey27;
+                
+            }
+            &:hover{
+                a{
+                    color: $lightBlue;
+                    &:before{
+                        color: $lightBlue;
+                    }
+                    &.icon-boussole:before{
+                        @include transform(rotate(180deg));
+                    }
+                }
+            }
+            &.active{
+                .gradient{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+
+    // RIGHT
+    .icon-list, .bt{
+        cursor: pointer;
+        display: block;
+        height: 66px;
+        position: relative;
+        width: 100%;
+        @include transition(all .2s);
+        &:before{
+            color: white;
+            font-size: 24px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            @include transform(translate(-50%, -50%));
+            @include transition(all .2s);
+        }
+
+        &:hover{
+           background: $grey666;
+            &:before{
+               color: $lightBlue;
+            }
+        }
+    }
+
+    .bt{
+        background: $grey27;
+        
+         &:before{
+            font-size: 18px;
+            @include transition(all .2s);
+         }
+
+
+
+         &.down{
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            &:hover{
+                &:before{
+                    margin-top: 5px;
+                }
+            }
+         }
+         &.up:hover{
+            &:before{
+                margin-top: -5px;
+            }
+         }
+    }
+
+    .v-wrapper{
+        height: 100%;
+        left: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 132px;
+        width: 100%;
+    }
+    .v-list{
+        left: 0;
+        position: absolute;
+        top: 0;
+        @include transition(top .3s);
+    }
+}

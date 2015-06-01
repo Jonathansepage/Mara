@@ -1,0 +1,272 @@
+[
+  {
+    "id": 0,
+    "name": "Los Angeles",
+    "country": "United States",
+    "subtitle": "The city of angels",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/0/0e/Echo_Park_Lake.jpg",
+    "interest_matching": 66,
+    "social_matching": 88,
+    "like_count": 50,
+    "price": 987,
+    "tags": [
+      "sun",
+      "beach",
+      "hollywood",
+      "party",
+      "art"
+    ],
+    "price_score": 20,
+    "relevance_score": 120,
+    "popularity_score": 231,
+    "pos": {
+      "lat": 34.05,
+      "lon": -118.25
+    },
+    "text": "Historically home to the Chumash and Tongva, Los Angeles was claimed by Juan Rodríguez Cabrillo for Spain in 1542 along with the rest of what would become Alta California. The city was officially founded on September 4, 1781, by Spanish governor Felipe de Neve. It became a part of Mexico in 1821 following the Mexican War of Independence.",
+    "categories": [
+      {
+        "id": 0,
+        "name": "Culture",
+        "score": 33
+      },
+      {
+        "id": 1,
+        "name": "Food",
+        "score": 92
+      },
+      {
+        "id": 2,
+        "name": "Nightlife",
+        "score": 66
+      },
+      {
+        "id": 3,
+        "name": "Outdoors",
+        "score": 11
+      },
+      {
+        "id": 4,
+        "name": "Shopping",
+        "score": 77
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "London",
+    "country": "United Kingdom",
+    "subtitle": "The capital and most populous city of England",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/3/3a/London_from_a_hot_air_balloon.jpg",
+    "interest_matching": 55,
+    "social_matching": 88,
+    "like_count": 90,
+    "price": 987,
+    "tags": [
+      "arts",
+      "commerce",
+      "education",
+      "entertainment",
+      "fashion",
+      "finance",
+      "healthcare",
+      "media",
+      "tourism"
+    ],
+    "price_score": 22,
+    "relevance_score": 130,
+    "popularity_score": 41,
+    "pos": {
+      "lat": 51.507222,
+      "lon": -0.1275
+    },
+    "text": "London is a world cultural capital. It is the world's most-visited city as measured by international arrivals and has the world's largest city airport system measured by passenger traffic. London's 43 universities form the largest concentration of higher education institutes in Europe.",
+    "categories": [
+      {
+        "id": 0,
+        "name": "Culture",
+        "score": 33
+      },
+      {
+        "id": 1,
+        "name": "Food",
+        "score": 92
+      },
+      {
+        "id": 2,
+        "name": "Nightlife",
+        "score": 66
+      },
+      {
+        "id": 3,
+        "name": "Outdoors",
+        "score": 11
+      },
+      {
+        "id": 4,
+        "name": "Shopping",
+        "score": 77
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "San Francisco",
+    "country": "United States",
+    "subtitle": "Fog City",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/c/cd/SanFrancisco_from_TwinPeaks_dusk_MC.jpg",
+    "interest_matching": 45,
+    "social_matching": 23,
+    "like_count": 98,
+    "price": 1275,
+    "tags": [
+      "fog",
+      "cold",
+      "silicon valley",
+      "party",
+      "technology"
+    ],
+    "price_score": 34,
+    "relevance_score": 89,
+    "popularity_score": 240,
+    "pos": {
+      "lat": 37.783333,
+      "lon": -122.416667
+    },
+    "text": "San Francisco is located on the West Coast of the United States at the north end of the San Francisco Peninsula and includes significant stretches of the Pacific Ocean and San Francisco Bay within its boundaries. Several picturesque islands —Alcatraz, Treasure Island and the adjacent Yerba Buena Island, and small portions of Alameda Island, Red Rock Island, and Angel Island— are part of the city.",
+    "categories": [
+      {
+        "id": 0,
+        "name": "Culture",
+        "score": 23
+      },
+      {
+        "id": 1,
+        "name": "Food",
+        "score": 78
+      },
+      {
+        "id": 2,
+        "name": "Nightlife",
+        "score": 66
+      },
+      {
+        "id": 3,
+        "name": "Outdoors",
+        "score": 4
+      },
+      {
+        "id": 4,
+        "name": "Shopping",
+        "score": 77
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sydney",
+    "country": "Australia",
+    "subtitle": "the Harbour City",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/5/5c/Sydney_skyline_at_dusk_-_Dec_2008.jpg",
+    "interest_matching": 66,
+    "social_matching": 88,
+    "like_count": 50,
+    "price": 987,
+    "tags": [
+      "sun",
+      "beach",
+      "kangourou",
+      "party",
+      "koala",
+      "spider"
+    ],
+    "price_score": 20,
+    "relevance_score": 120,
+    "popularity_score": 231,
+    "pos": {
+      "lat": 34.05,
+      "lon": -118.25
+    },
+    "text": "Sydney has an advanced market economy with strengths in finance, manufacturing, and tourism. Its gross regional product was $337 billion in 2013 making it a larger economy than countries such as Denmark, Singapore, and Hong Kong.",
+    "categories": [
+      {
+        "id": 0,
+        "name": "Culture",
+        "score": 33
+      },
+      {
+        "id": 1,
+        "name": "Food",
+        "score": 92
+      },
+      {
+        "id": 2,
+        "name": "Nightlife",
+        "score": 66
+      },
+      {
+        "id": 3,
+        "name": "Outdoors",
+        "score": 11
+      },
+      {
+        "id": 4,
+        "name": "Shopping",
+        "score": 77
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Barcelona",
+    "country": "Spain",
+    "subtitle": "Head and Hearth of Catalonia",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/5/5d/Catalunya_Barcelona1_tango7174.jpg",
+    "interest_matching": 66,
+    "social_matching": 88,
+    "like_count": 50,
+    "price": 987,
+    "tags": [
+      "sun",
+      "beach",
+      "hollywood",
+      "party",
+      "art"
+    ],
+    "price_score": 20,
+    "relevance_score": 120,
+    "popularity_score": 231,
+    "pos": {
+      "lat": 41.383333,
+      "lon": 2.183333
+    },
+    "text": "Barcelona is one of the world's leading tourist, economic, trade fair and cultural centers, and its influence in commerce, education, entertainment, media, fashion, science, and the arts all contribute to its status as one of the world's major global cities.",
+    "categories": [
+      {
+        "id": 0,
+        "name": "Culture",
+        "score": 33
+      },
+      {
+        "id": 1,
+        "name": "Food",
+        "score": 92
+      },
+      {
+        "id": 2,
+        "name": "Nightlife",
+        "score": 66
+      },
+      {
+        "id": 3,
+        "name": "Outdoors",
+        "score": 11
+      },
+      {
+        "id": 4,
+        "name": "Shopping",
+        "score": 77
+      }
+    ]
+  }
+]

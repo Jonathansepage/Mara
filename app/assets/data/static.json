@@ -1,0 +1,136 @@
+{
+	"config":{
+		"_ROOT": "www.sepage.com",
+		"nstgrm":{
+			"clientId":"ff5b94e5db2e468fa1219ffe49200a81",
+			"secretId":"f2675add3dc347afbb74d06e86a076ab"
+		}
+	},
+	"header":{
+	    "inspire": "inspire me",
+	    "welcome": "Welcome"
+	},
+    
+    "bookingform": {
+    	"step0": {
+	        "title": "PRECISE YOUR SEARCH, TELL US MORE ABOUT YOUR TRAVEL"
+	    },
+	     "step1": {
+	        "title": "tell us more about<div>your travel</div>"
+	    }
+	},
+
+	"prehome": {
+	    "background-img": "_temp/prehome.jpg",
+	    "grip": {
+	    	"l1": "We help you find",
+	    	"l2": "Destinations",
+	    	"l3": "Matching your interests"
+	    },
+	    "fb-login": "log in with facebook",
+	    "description": "You have to be connected with your Facebook account to enjoy Mara."
+
+	},
+
+	"list-displayer": {
+		"filters": {
+			"title": "Matching",
+			"all": "All",
+			"personnal": "Personnal",
+			"social": "Social"
+		},
+		"sorting": {
+			"title": "I want to see",
+			"deals":"Best Deals",
+			"popular" :"Most popular",
+			"relevant": "Most relevant"
+		},
+		"viewmode":{
+			"list": "List",
+			"map": "Map"
+		}
+	},
+
+	"home-list-view":{
+		"tags-title": "Best for...",
+		"matching-title": "Matching",
+		"perso-title": "Personnal match",
+		"social-title": "Social match",
+		"from": "From",
+		"book-now": "Book now"
+	},
+
+	"popin-add-to-playlist": {
+		"select": "select a travel list",
+		"create": "create a new one"
+	},
+
+	"fiche": {
+		"tabs": [
+			{
+				"title": "activities"
+			},
+			{
+				"title": "friends"
+			},
+			{
+				"title": "more informations",
+				"innerNav": ["general", "your perspective", "events", "reviews & tips", "additionnal ressources"]
+			}
+		],
+		"activities":{
+			"allCategories": "All categories",
+			"ranking": "Ranking",
+			"in": "In",
+			"readmore": "Read more on",
+			"seemore": "See more"
+		},
+		"friends":{
+			
+		},
+		"moreInfos":{
+			"innerTabs": [
+				{
+					"name":"General",
+					"instagram": "from Instagram",
+					"location": "Location",
+					"weather": "Weather",
+					"language": "Spoken language",
+					"time": "Time difference",
+					"money": "Money"
+				},
+				{
+					"name": "Your Perspective"
+				},
+				{
+					"name":"Events"
+				},
+				{
+					"name":"Reviews & tips"
+				},
+				{
+					"name":"Additionnal ressources"
+				}
+			]
+		}
+	},
+
+	"travelList": {
+		"tabs:":[
+			{
+				"title": "My travel lists",
+				"title_short":"Travel Lists",
+				"create": "create a new one",
+				"destination": "destinations"
+			},
+			{
+				"title": "My liked destinations",
+				"title_short":"liked destinations"
+			},
+			{
+				"title": "My unliked destinations",
+				"title_short":"unliked destinations"
+			}
+		]
+	}
+}

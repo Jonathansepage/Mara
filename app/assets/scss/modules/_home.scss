@@ -1,0 +1,421 @@
+#home{
+	$displayerHeight: 71px;
+	padding: 0 0 0 $sidebarLeft-width;
+
+	.list-displayer{
+		background: $greyF7;
+		height: $displayerHeight;
+		left: 0;
+		top: $header-height + $headerForm-initH;
+		overflow: hidden;
+		padding: 0  $inner-gutter 0 $inner-gutter + $sidebarLeft-width ;
+		position: fixed;
+		width: 100%;
+		z-index: 50;
+		@include box-sizing;
+		.list{
+			color: $grey99;
+			float: left;
+			font: normal 12px/#{$displayerHeight} $helveticaL;
+			text-transform: uppercase;
+			
+			&.view-mode{
+				float: right;
+			}
+
+			&.sorting{
+				margin-left: 40px;
+			}
+
+			li{
+				margin-left: 20px;
+				&:first-child{
+					margin-left: 0;
+				}
+			}
+
+			a{
+				color: $grey99;
+				text-transform: uppercase;
+				&:hover, &.active{
+					color: black;
+					@include transition(color .2s);
+				}
+				&.active{
+					font-family: $helveticaM;
+				}
+
+				&:before{
+					font-size: 18px;
+					margin-right: 10px;
+					position: relative;
+					top: 4px;
+				}
+
+			}
+
+			.picto{
+				display: inline-block;
+				height: 26px;
+				margin: 0 14px 0 0;
+				position: relative;
+				top: 11px;
+				width: 19px;
+				&.deals{
+					@include sprite();
+				}
+				&.popular{
+					@include sprite(-20px);
+				}
+				&.relevant{
+					@include sprite(-40px);
+				}
+			}
+		}
+	}
+
+	.wrapper-list, .wrapper-map{
+		padding-right: $inner-gutter;
+		//position: relative;
+		top: $header-height + $headerForm-initH + $displayerHeight;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 40;
+	}
+
+	.wrapper-map{
+		padding: 0 0 0 $sidebarLeft-width;
+		@include box-sizing;
+	}
+
+	#map { 
+		position:absolute;
+		top:0;
+		bottom:0;
+		left: $sidebarLeft-width;
+		right: 0;
+	}
+	
+	.marker{
+		height: 82px;
+		margin: -41px 0 0 -33px;
+		width: 65px;
+		animation-duration: 1s;
+		animation-iteration-count: 1;
+		animation-name: bounce;
+		.marker-content{
+			color: white;
+			height: 65px;
+			padding: 10px;
+			position: relative;
+			text-align: left;
+			text-transform: uppercase;
+			width: 65px;
+			&:before{
+				content:"\25E5";
+				position: absolute;
+				left: 0;
+				top: 65px;
+				font-size: 16px;
+				line-height: 16px;
+			}
+
+			&.bestdeals{
+				background: $midBlue;
+				&:before{
+					color: $darkBlue;
+				}
+				.form{
+					font: normal 17px/17px $helveticaL;
+					margin-top: 7px;
+				}
+				.price{
+					font: normal 17px/17px $helveticaB;
+				}
+			}
+
+			&.popular{
+				background: $pink;
+				text-align: center;
+				&:before{
+					color: $darkPink;
+				}
+				.score{
+					font: normal 18px/18px $helveticaB;
+					position: relative;
+					top: 7px;
+					&:before{
+						font-size: 9px;
+						line-height: 9px;
+						position: absolute;
+						left: 50%;
+						bottom: -15px;
+						@include transform(translateX(-50%));
+					}
+				}
+			}
+
+			&.relevant{
+				background: $gold;
+				&:before{
+					color: $darkGold;
+				}
+			}
+		}
+	}
+	
+	// overrides
+	.leaflet-popup-content-wrapper{
+		border-radius: 0;
+		padding: 0;
+	}
+	.leaflet-popup-content{
+		//height: 339px !important;
+		padding: 0;
+		width: 350px !important;
+		&:before{
+			color: $darkBlue;
+			content:"\25E5";
+			position: absolute;
+			left: 0;
+			bottom: -15px;
+			font-size: 16px;
+			line-height: 16px;
+		}
+	}
+	.leaflet-popup-close-button{
+		z-index: 1;
+	}
+	.leaflet-popup-tip-container{
+		display: none;
+	}
+
+	.infowindow{
+		height: 339px;
+		overflow: hidden;
+		position: relative;
+		width: 350px;
+		
+		animation-duration: .3s;
+		animation-iteration-count: 1;
+		animation-name: infowindowopening;
+		
+		.pictos-list{
+			height: 268px;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 90px;
+			@include box-sizing();
+			li{
+				height: 33.333%;
+				position: relative;
+				width: 100%;
+				@include box-sizing();
+				span{
+					cursor: pointer;
+					display: block;
+					height: 100%;
+					left: 0;
+					position: absolute;
+					text-align: center;
+					top: 0;
+					width: 100%;
+					@include box-sizing();
+					@include transition(all .2s);
+					&.icon-add{
+						background: $darkBlue;
+						border: 1px solid $darkBlue;
+						color: white;
+						&:before{
+							font-size: 30px;
+							left: 0;
+							line-height: 100%;
+							position: absolute;
+							top: 50%;
+							width: 100%;
+							@include transform(translateY(-50%));
+						}
+						&:hover{
+							background: $midBlue;
+							border-color: $midBlue;
+						}
+					}
+					&.icon-heart, &.icon-heart-broken{
+						background: white;
+						border: 1px solid $greyED;
+						color: $greyCC;
+						&:before{
+							font-size: 20px;
+							left: 0;
+							line-height: 100%;
+							position: absolute;
+							top: 50%;
+							width: 100%;
+							@include transform(translateY(-50%));
+						}
+						&:hover, &.active{
+							background: $lightBlue;
+							border-color: $lightBlue;
+							color: white;
+						}
+						
+					}
+				}
+			}
+		}
+		.infos{
+			border-top: 1px solid $greyED;
+			border-right: 1px solid $greyED;
+			height: 268px;
+			left: 90px;
+			padding: 30px 25px;
+			position: absolute;
+			top: 0;
+			width: 260px;
+			@include box-sizing();
+		}
+		.city{
+			color: $grey33;
+			font: normal 28px/28px $helveticaB;
+			text-transform: uppercase;
+		}
+		.country{
+			color: $grey666;
+			font: normal 28px/28px $helveticaM;
+			margin-right: 10px; // to not stick to .likes element
+		}
+		.grip{
+			color: $grey666;
+			font: normal 14px/15px $helveticaL;
+			margin-top: 5px;
+		}
+		.likes{
+			color: $darkBlue;
+			font: normal 25px/25px $helveticaM;
+			margin-top: 8px;
+			&:before{
+				font-size:17px;
+				margin-right: 10px;
+			}
+		}
+		.matches-wrapper{
+			bottom: 25px;
+			position: absolute;
+			left: 30px;
+			width: 202px;
+		}
+		.match{
+			padding: 0;
+			
+			&.personnal{
+				color: $darkBlue;
+				.bar{
+					margin-bottom: 15px;
+				}
+			}
+			&.social{
+				color: $claret;
+			}
+		}
+		.title-match{
+			font: normal 13px/8px $helveticaR;
+			&:before{
+				font-size: 9px;
+				margin-right: 10px;
+			}
+		}
+		.bar{
+			background: $greyED;
+			margin-top: 5px;
+			height: 4px;
+			width: 100%;
+			.score{
+				height: 100%;
+			}
+		}
+		.booking-infos{
+			bottom: 0;
+			height: 71px;
+			position: absolute;
+			left: 0;
+			width: 100%;
+			@include box-sizing();
+		}
+		.price-wrapper{
+			background: $midBlue;
+			display: inline-block;
+			height: 100%;
+			position: relative;
+			width: 50%;
+			white-space: nowrap;
+			.price{
+				color: white;
+				font: normal 38px/38px $helveticaB;
+				left: 50%;
+				position: absolute;
+				top: 50%;
+				text-align: left;
+				@include transform(translate(-50%, -50%));
+				.from{
+					font: normal 16px/16px $helveticaL;
+					text-transform: uppercase;
+				}
+			}
+		}
+
+		.bt-book-now{
+			background: $lightBlue;
+			color: white;
+			display: inline-block;
+			font: normal 16px/100% $helveticaB;
+			height: 100%;
+			position: relative;
+			text-align: center;
+			white-space: nowrap;
+			width: 50%;
+			@include transition(all .2s);
+			&:hover{
+				background: $darkBlue;
+				.icon-plane:before{
+					margin: 0 10px;
+				}
+			}
+			.icon-plane{
+				left: 50%;
+				position: absolute;
+				top: 50%;
+				text-align: left;
+				@include transform(translate(-50%, -50%));
+				text-transform: uppercase;
+				&:before{
+					margin-right: 20px;
+					@include transition(all .2s);
+				}
+			}
+		}
+	}
+}
+
+@keyframes arrival {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes bounce {
+    0%   { top:-500px; opacity:0; animation-timing-function:ease-in;  }
+    37%  { top:0px; opacity:1; animation-timing-function:ease-out; }
+    55%  { top:-125px; animation-timing-function:ease-in;  }
+    73%  { top:0px; animation-timing-function:ease-out; }
+    82%  { top:-35px; animation-timing-function:ease-in;  }
+    91%  { top:00px; animation-timing-function:ease-out; }
+    96%  { top:-10px; animation-timing-function:ease-in;  }
+    100% { top:000px; }
+}
+
+@keyframes infowindowopening {
+    from {height: 0; width: 0;}
+    to {height: 339px; width: 350px;}
+}

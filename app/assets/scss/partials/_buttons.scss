@@ -1,0 +1,19 @@
+// BUTTONS -----------------------------------------------------------
+// -------------------------------------------------------------------
+.bt{
+	background: transparent;
+	cursor: pointer;
+	text-align: center;
+	text-transform: uppercase;
+	@include transform-origin(50% 50%);
+	@include transition(all .15s);
+	&:hover{
+	}
+	&.gen{
+		
+		&:hover{
+			
+		}
+	}
+	
+}

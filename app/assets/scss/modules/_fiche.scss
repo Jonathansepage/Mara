@@ -1,0 +1,290 @@
+#fiche{
+	$subnavH: 45px;
+	overflow: hidden;
+	padding-bottom: $inner-gutter;
+	.main-visual{
+		position: relative;
+		width: 100%;
+		@extend .bg-full;
+		&:before{
+			content: '';
+			display: block;
+			padding-top: 49%;
+		}
+	}
+
+	.main-content{
+		margin: -6.25% 11% 0 7%;
+		position: relative;
+		width: 82%;
+	}
+
+	.subnav, .inner-nav{
+		
+		background: $grey27;
+		height: $subnavH;
+		padding: 0 15px;
+		width: 100%;
+		@include box-sizing;
+		.list{
+			li{
+				height: $subnavH;
+				margin: 0 15px;
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	.subnav-item{
+		color: $grey99;
+		display: block;
+		font: normal 14px/#{$subnavH} $helveticaL;
+		height: 100%;
+		
+		@include box-sizing;
+		@include transition(all .2s);
+		&:hover, &.active{
+			color: white;
+		}
+		&.active{
+			border-bottom: 4px solid $lightBlue;
+			font-family: $helveticaB;
+		}
+	}
+
+	.inner-nav{
+		background: $greyED;
+		padding: 0 !important;
+		li{
+			margin: 0 !important;
+			&:first-child{
+				a{
+					padding-left: 30px;
+				}
+			}
+		}
+		a{
+			color: $grey99;
+			display: block;
+			font: normal 12px/#{$subnavH} $helveticaL;
+			padding: 0 15px;
+			@include transition(all .2s);
+			&.active, &:hover{
+				color: $grey33;
+			}
+			&.active{
+				background: white;
+				font-family: $helveticaM;
+			}
+		}
+	}
+
+	.tab-content{
+		display: none;
+		&.active{
+			display: block;
+		}
+	}
+	
+	.inner-content{
+		background: white;
+		border: 1px solid $greyED;
+		border-top: none;
+		overflow: hidden;
+	}
+
+	.col{
+		float: left;
+		position: relative;
+		@include box-sizing;
+	}
+	
+}
+
+#fiche-activities{
+	.col{
+		&.left{
+			width: 34%;
+			&:before{
+				content: '';
+				display: block;
+				padding-top: 244.4%;
+			}
+		}
+		&.right{
+			padding: $inner-gutter;
+			width: 66%;
+		}
+	}
+
+	#map{
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		
+		// zoom override
+		.leaflet-bottom, .leaflet-top{
+			z-index: 50;
+		}
+	}
+
+	.pies-comparator{
+		width: 100%;
+		&:before{
+			content:'';
+			display: block;
+			padding-top: 37%;
+		}
+	}
+	.pie-wrapper{
+		height: 206px;
+		left: 0;
+		margin-left: -103px;
+		position: absolute;
+		top: $inner-gutter;
+		width: 206px;
+		@include transform(scale(0));
+		@include transition(all .8s);
+		.full-circle
+		{ fill: $greyED }
+		.center 
+		{ fill: white }
+
+		.border 
+		{ fill: $lightBlue }
+
+		&.pos0{
+			left: 20%;
+			opacity: 0;
+			z-index: 0;
+			@include transform(scale(0))
+		}
+		&.pos1{
+			left: 35%;
+			opacity: .2;
+			z-index: 1;
+			@include transform(scale(.8))
+		}
+		&.pos2{
+			left: 50%;
+			z-index: 2;
+			@include transform(scale(1))
+		}
+		&.pos3{
+			left: 65%;
+			opacity: .2;
+			z-index: 1;
+			@include transform(scale(.8))
+		}
+		&.pos4{
+			left: 80%;
+			opacity: 0;
+			z-index: 0;
+			@include transform(scale(0))
+		}
+
+		&.pos0, &.pos1, &.pos3, &.pos4{
+			.pie-score, .pie-ranking, .pie-city{
+				opacity: 0;
+			}
+		}
+
+	}
+	.pie-score{
+		color: $lightBlue;
+		font: normal 38px/38px $helveticaB;
+		left: 0;
+		position: absolute;
+		text-align: center;
+		top: 30%;
+		width: 100%;
+		@include transition(all .2s);
+	}
+	.pie-ranking{
+		color: $lightBlue;
+		font: normal 14px/16px $helveticaM;
+		left: 0;
+		position: absolute;
+		text-align: center;
+		top: 50%;
+		width: 100%;
+		@include transition(all .2s);
+	}
+	.pie-city{
+		color: $grey27;
+		font: normal 14px/16px $helveticaM;
+		left: 0;
+		position: absolute;
+		text-align: center;
+		bottom: 30%;
+		width: 100%;
+		@include transition(all .2s);
+	}
+
+	.pies-nav{
+		height: 60px;
+		left: 50%;
+		position: absolute;
+		top: 2%;
+		width: 245px;//30%;
+		z-index: 2;
+		@include transform(translate(-50%, 50%));
+
+		.bt{
+			color: $grey666;
+			font: normal 14px/18px $helveticaL;
+			position: absolute;
+			text-transform: initial;
+			top: 50%;
+			
+			.picto{
+				color: $lightBlue;
+				margin-bottom: 5px;
+				&:before{
+					font-size: 18px;
+				}
+			}
+			&.left{
+				left: 0;
+				text-align: right;
+				@include transform(translate(-100%, 50%));
+			}
+			&.right{
+				right: 0;
+				text-align: left;
+				@include transform(translate(100%, 50%));
+			}
+		}
+	}
+
+	.bt-seemore{
+		color: white;
+		cursor: pointer;
+		font: normal 14px/50px $helveticaM;
+		margin-top: 20px;
+		text-align: center;
+		text-transform: uppercase;
+		width: 100%;
+	}
+}
+
+
+#fiche-more-infos{
+	.col{
+		&.left{
+			width: 40%;
+			/* &:before{
+				content: '';
+				display: block;
+				padding-top: 147%;
+			} */
+		}
+		&.right{
+			background: white;
+			padding: $inner-gutter;
+			width: 60%;
+		}
+	}
+}

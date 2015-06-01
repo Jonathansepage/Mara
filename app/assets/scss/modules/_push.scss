@@ -1,0 +1,483 @@
+// LISTS -----------------------------------------------------------
+// -------------------------------------------------------------------
+
+.push{
+	position: relative;
+
+	.visual{
+		display: block;
+		position: relative;
+		@extend .bg-full;
+		&:before{
+			content: '';
+			display: block;
+			padding-top: 61%;
+		}
+		.local-loader{
+			//background: url('../images/fb-loader.gif') center center no-repeat white;
+			background: $greyED;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	&.type-home{
+		width: 100%;
+		.visual{
+			width: 39%;
+		}
+
+		.content{
+			background: white;
+			height: 82%;
+			overflow: hidden;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			width: 64%;
+			@include transform(translateY(-50%));
+			&:before{
+				content: '';
+				display: block;
+				padding-top: 31%;
+			}
+		}
+
+		.pictos-list{
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 10.5%;
+			@include box-sizing();
+			li{
+				height: 33.333%;
+				position: relative;
+				width: 100%;
+				@include box-sizing();
+				a{
+					display: block;
+					height: 100%;
+					left: 0;
+					position: absolute;
+					text-align: center;
+					top: 0;
+					width: 100%;
+					@include box-sizing();
+					@include transition(all .2s);
+					&.icon-add{
+						background: $darkBlue;
+						border: 1px solid $darkBlue;
+						&:before{
+							font-size: 30px;
+							left: 0;
+							line-height: 100%;
+							position: absolute;
+							top: 50%;
+							width: 100%;
+							@include transform(translateY(-50%));
+						}
+						&:hover{
+							background: $midBlue;
+							border-color: $midBlue;
+						}
+					}
+					&.icon-heart, &.icon-heart-broken{
+						background: white;
+						border: 1px solid $greyED;
+						color: $greyCC;
+						&:before{
+							font-size: 20px;
+							left: 0;
+							line-height: 100%;
+							position: absolute;
+							top: 50%;
+							width: 100%;
+							@include transform(translateY(-50%));
+						}
+						&:hover, &.active{
+							background: $lightBlue;
+							border-color: $lightBlue;
+							color: white;
+						}
+						
+					}
+				}
+			}
+		}
+
+		.infos{
+			border-top: 1px solid $greyED;
+			border-bottom: 1px solid $greyED;
+			height: 100%;
+			left: 10.5%;
+			padding: $inner-gutter;
+			position: absolute;
+			top: 0;
+			width: 66.5%;
+			@include box-sizing();
+		}
+
+		.city{
+			color: $grey33;
+			font: normal 28px/28px $helveticaB;
+			text-transform: uppercase;
+		}
+		.country{
+			color: $grey666;
+			font: normal 28px/28px $helveticaM;
+			margin-right: 10px; // to not stick to .likes element
+		}
+		.grip{
+			color: $grey666;
+			font: normal 14px/15px $helveticaL;
+			margin-top: 4px;
+		}
+
+		.likes{
+			color: $darkBlue;
+			float: right;
+			font: normal 25px/25px $helveticaM;
+			&:before{
+				font-size:17px;
+				margin-right: 10px;
+			}
+		}
+
+		.wrapper-cols{
+			bottom: $inner-gutter;
+			left: $inner-gutter;
+			position: absolute;
+			width:95%;
+		}
+
+		.col-title{
+			color: $grey666;
+			font: normal 14px/14px $helveticaM;
+			margin-bottom: 13px;
+		}
+		.tag{
+			background: $greyAE;
+			color: white;
+			display: inline-block;
+			float: left;
+			font: normal 13px/24px $helveticaL;
+			margin: 0 1px 1px 0;
+			padding: 0 10px;
+		}
+
+		.match{
+			padding: 0 $inner-gutter 0 0;
+			
+			&.personnal{
+				color: $darkBlue;
+				.bar{
+					margin-bottom: 35px;
+				}
+			}
+			&.social{
+				color: $claret;
+			}
+		}
+		.title-match{
+			font: normal 13px/8px $helveticaR;
+			&:before{
+				font-size: 9px;
+				margin-right: 10px;
+			}
+		}
+		.bar{
+			background: $greyED;
+			margin-top: 5px;
+			height: 4px;
+			width: 100%;
+			.score{
+				height: 100%;
+			}
+		}
+
+		.booking-infos{
+			border-top: 1px solid $greyED;
+			border-bottom: 1px solid $greyED;
+			height: 100%;
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 23%;
+			@include box-sizing();
+		}
+		.price-wrapper{
+			background: $midBlue;
+			height: 76%;
+			position: relative;
+			width: 100%;
+			white-space: nowrap;
+			.price{
+				color: white;
+				font: normal 38px/38px $helveticaB;
+				left: 50%;
+				position: absolute;
+				top: 50%;
+				text-align: left;
+				@include transform(translate(-50%, -50%));
+				.from{
+					font: normal 16px/16px $helveticaL;
+					text-transform: uppercase;
+				}
+			}
+		}
+
+		.bt-book-now{
+			background: $lightBlue;
+			display: block;
+			font: normal 16px/100% $helveticaB;
+			height: 24%;
+			position: relative;
+			text-align: center;
+			white-space: nowrap;
+			width: 100%;
+			@include transition(all .2s);
+			&:hover{
+				background: $darkBlue;
+				.icon-plane:before{
+					margin: 0 10px;
+				}
+			}
+			.icon-plane{
+				left: 50%;
+				position: absolute;
+				top: 50%;
+				text-align: left;
+				@include transform(translate(-50%, -50%));
+				text-transform: uppercase;
+				&:before{
+					margin-right: 20px;
+					@include transition(all .2s);
+				}
+			}
+		}
+	}
+
+	&.type-fiche{
+		@extend .type-home;
+		.content{
+			position: relative;
+			width: 100%;
+			@include transform(translateY(0));
+			&:before{
+				padding-top: 22.9%;
+			}
+		}
+		.pictos-list{
+			width: 7.6%;
+		}
+		.infos{
+			border: none;
+			width: 69%;
+		}
+		.booking-infos{
+			border: none;
+			width: 18%;
+		}
+	}
+
+	&.type-search-result{
+		cursor: pointer;
+		float: left;
+		padding: 2% 0 0 0;
+		@include grid(3, 2%);
+		.infos{
+			background: white;
+			padding: 20px 15px;
+		}
+		.city{
+			color: $grey33;
+			font: normal 28px/28px $helveticaB;
+			text-transform: uppercase;
+		}
+		.country{
+			color: $grey666;
+			font: normal 28px/28px $helveticaM;
+			margin-right: 10px; // to not stick to .likes element
+		}
+		.grip{
+			color: $grey666;
+			font: normal 14px/15px $helveticaL;
+			margin-top: 4px;
+		}
+	}
+
+	&.type-fiche-activities{
+		display: block;
+		width: 100%;
+		.visual{
+			width: 45%;
+		}
+
+		.content{
+			background: $greyED;
+			height: 89%;
+			overflow: hidden;
+			padding: 1px;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			width: 59%;
+			@include box-sizing;
+			@include transform(translateY(-50%));
+			
+		}
+		.infos{
+			background: white;
+			height: 100%;
+			padding: 17px;
+			width:100%;
+			@include box-sizing;
+		}
+
+		.like{
+			color: $darkBlue;
+			float: right;
+		}
+
+		.grip{
+			color: $grey666;
+			font: normal 14px/16px $helveticaL;
+		}
+		.title{
+			color: $grey33;
+			font: normal 14px/16px $helveticaM;
+			margin: 15px 0;
+		}
+		
+		.description{
+			color: $grey99;
+			font: normal 13px/16px $sans;
+		}
+		.read-more {
+			color: $lightBlue;
+			display: inline-block;
+			font: normal 13px/13px $helveticaR;
+			margin: 10px 0 0 0;
+			@include transition(color .2s);
+			&:before{
+				color: $lightBlue;
+				font-size: 16px;
+				line-height: 13px;
+				margin: 0px 5px 0 0;
+				position: relative;
+				top: 2px;
+				@include transition(color .2s);
+			}
+			&:hover{
+				color: $darkBlue;
+				&:before{
+					color: $darkBlue;
+				}
+			}
+		}
+
+		&.active{
+			.content{
+				padding: 4px;
+				@extend .gradient;
+			}
+		}
+	}
+
+	&.type-2cols{
+		border-bottom: 1px solid $greyED;
+		color: $grey99;
+		font: normal 13px/18px $sans;
+		overflow: hidden;
+		padding: $inner-gutter 0;
+		text-align: justify;
+		&:first-child{
+			padding-top: 0;
+		}
+		.w-50{
+			padding: 0 0 0 15px;
+			@include box-sizing;
+			&:first-child{
+				padding-top: 0 15px 0 0;
+			}
+		}
+		.title{
+			color: $grey666;
+			font: normal 14px/16px $helveticaM;
+			margin-bottom: 15px;
+		}
+	}
+
+	&.type-sidebar{
+		display: block;
+		position: relative;
+		@include opacity(.5);
+		@include transition(all .3s);
+		&:hover{
+			@include opacity(1);
+			.price-wrapper{
+				@include opacity(1);
+			}
+		}
+		.visual:before{
+			padding-top: 65%;
+		}
+		.infos{
+			background: white;
+			padding: 20px 15px;
+			@include box-sizing;
+		}
+		.city{
+			color: $grey33;
+			font: normal 16px/18px $helveticaB;
+			text-transform: uppercase;
+		}
+		.country{
+			color: $grey666;
+			font: normal 12px/14px $helveticaL;
+		}
+		.match{
+			margin: 10px 0 0 0;
+		}
+		.bar {
+			background: $greyED;
+			height: 5px;
+			width: 100%;
+		}
+
+		.score{
+			height: 100%;
+		}
+		.price-wrapper{
+			background: $midBlue;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			@include opacity(0);
+			@include transition(all .3s);
+			&:before{
+				content:'';
+				display: block;
+				padding-top: 65%; 
+			}
+		}
+		.price{
+			color: white;
+			font: normal 30px/32px $helveticaB;
+			left: 15px;
+			position: absolute;
+			top: 15px;
+		}
+
+		.from{
+			font: normal 16px/18px $helveticaL;
+			text-transform: uppercase;
+		}
+	}
+}
+

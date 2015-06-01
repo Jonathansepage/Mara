@@ -1,0 +1,92 @@
+// HEADER SCSS
+#main-header{
+	background: transparent;
+    height: $header-height;
+    left: 0;
+    position: fixed;
+    top: 0;
+    //visibility: hidden;
+    width: 100%;
+    z-index: 80;
+    @include transition(all .2s);
+    .main-logo{
+    	display: block;
+    	height: 12px;
+    	margin: 19px auto 0 auto;
+    	width: 79px;
+		/* Hide the text. */
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		@include transition(all .2s);
+    	&:before{
+    		display: block;
+    		font-size: 11px;
+    		text-indent:0;
+    	}
+    }
+
+    .user-wrapper{
+    	height: $header-height;
+    	position: absolute;
+    	right: $inner-gutter;
+    	top: 0;
+    	visibility: hidden;
+    	li{
+    		height: $header-height;
+    		margin: 0 10px;
+    		vertical-align: top;
+    	}
+    	a, span, div{
+    		color: white;
+    		display: inline-block;
+    		font: normal 13px/#{$header-height} $helveticaL;
+    		&:before{
+    			float: left;
+    			font-size: 16px;
+    			line-height: $header-height;
+    			margin-right: 5px;
+    			position:relative;
+    			top: 1px;
+    		}
+    	}
+    	a{
+    		font-family: $helveticaM;
+            &.icon-sync{
+                @include transition(all .3s);
+                &:before{
+                    color: white;
+                    @include transition(all .3s);
+                }
+
+                &:hover{
+                    color: $lightBlue;
+                    &:before{
+                        color: $lightBlue;
+                        @include transform(rotate(180deg));
+                    }
+                }
+            }
+    	}
+    	.user-picture{
+    		background-color: black;
+    		border-radius: 50%;
+    		float: left;
+    		height: 35px;
+    		margin: 8px 20px 0 10px;
+    		width: 35px;
+    		@extend .bg-full;
+    	}
+    }
+
+    &.active{
+    	background: $grey27;
+    	.main-logo{
+    		margin-left: 25px;
+    	}
+    	.user-wrapper{
+    		visibility: visible;
+    	}
+    }
+    
+}
