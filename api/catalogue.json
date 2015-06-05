@@ -280,7 +280,7 @@
     "id": 0,
     "name": "Hong Kong",
     "country": "China",
-    "subtitle": ""Fragrant Harbour"",
+    "subtitle": "Fragrant Harbour",
     "picture1": "http://upload.wikimedia.org/wikipedia/commons/2/23/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg",
     "liked": true,
     "interest_matching": 66,
@@ -326,7 +326,6 @@
       }
     ]
   },
-  [
   {
     "name": "Hong Kong",
     "country": "China",
