@@ -275,3 +275,195 @@
     ]
   }
 ]
+[
+  {
+    "id": 0,
+    "name": "Hong Kong",
+    "country": "China",
+    "subtitle": ""Fragrant Harbour"",
+    "picture1": "http://upload.wikimedia.org/wikipedia/commons/2/23/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg",
+    "liked": true,
+    "interest_matching": 66,
+    "social_matching": 88,
+    "like_count": 50,
+    "price": 1287,
+    "tags": [
+      "?"
+    ],
+    "price_score": 20,
+    "relevance_score": 90,
+    "popularity_score": 91,
+    "pos": {
+      "lat": 34.05,
+      "lon": -118.25
+    },
+    "text": "Historically home to the Chumash and Tongva, Los Angeles was claimed by Juan Rodríguez Cabrillo for Spain in 1542 along with the rest of what would become Alta California. The city was officially founded on September 4, 1781, by Spanish governor Felipe de Neve. It became a part of Mexico in 1821 following the Mexican War of Independence.",
+    "categories": [
+      {
+        "id": 0,
+        "name": "Culture",
+        "score": 33
+      },
+      {
+        "id": 1,
+        "name": "Food",
+        "score": 92
+      },
+      {
+        "id": 2,
+        "name": "Nightlife",
+        "score": 66
+      },
+      {
+        "id": 3,
+        "name": "Outdoors",
+        "score": 11
+      },
+      {
+        "id": 4,
+        "name": "Shopping",
+        "score": 77
+      }
+    ]
+  },
+  [
+  {
+    "name": "Hong Kong",
+    "country": "China",
+    "subtitle": "Fragrant Harbour,
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/2/23/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg",
+    "price": 1287,
+    "tags": [],
+    "pos": {
+      "lat": 22.267000,
+      "lon": 114.158882
+    },
+    "text": "Hong Kong (香港, see Name section), alternatively known by its initials H.K., is a Special Administrative Region of the People's Republic of China situated on China's south coast and enclosed by the Pearl River Delta and South China Sea. The city is known for its expansive skyline and deep natural harbour. With a land mass of 1,104 km2 (426 sq mi) and a population of over seven million people, Hong Kong is one of the most densely populated areas in the world. Hong Kong's population is 93.6% ethnic Chinese and 6.4% from other groups. Hong Kong's Cantonese-speaking majority originate mainly from the neighbouring Canton (now Guangdong) province, from which many of them fled to escape wars and Communist rule in China from the 1930s to the 1960s.Hong Kong became a colony of the British Empire after the First Opium War (1839–42). Hong Kong Island was first ceded to the UK in perpetuity, followed by Kowloon Peninsula in 1860 and then the New Territories was put under lease in 1898. It was occupied by Japan during the Pacific War (1941–45), after which the British resumed control until 1997, when China resumed sovereignty. The region espoused minimum government intervention under the ethos of positive non-interventionism during the colonial era. The time period greatly influenced the current culture of Hong Kong, often described as "East meets West", and the educational system, which used to loosely follow the system in England until reforms implemented in 2009.On 1 July 1997, Hong Kong became the first Special Administrative Region of the People's Republic of China, under the principle of "one country, two systems" (the other, Macau, attained that status in December 1999).It has a different political system from mainland China. Hong Kong's independent judiciary functions under the common law framework. Hong Kong Basic Law, its constitutional document, which stipulates that Hong Kong shall have a high degree of autonomy in all matters except foreign relations and military defence, governs its political system. Although it has a burgeoning multi-party system, a small-circle electorate controls half of its legislature. The head of the government, the Chief Executive of Hong Kong, is chosen by an Election Committee of 400 to 1,200 members, a situation that will be in effect during the first 20 years of Chinese rule.Hong Kong is a world city. It is one of the Al­pha+ cities. Also, a Time Magazine article in 2008 coined the phrase "Nylonkong", which referred to New York City, London and Hong Kong, that these three cities form a global network that facilitates the global economy. As Hong Kong ranks the third most important leading international financial centre, after London and New York City, Hong Kong has a major capitalist service economy characterised by low taxation and free trade, and the currency, Hong Kong dollar, is the eighth most traded currency in the world. The lack of space caused demand for denser constructions, which developed the city to a centre for modern architecture and the world's most vertical city. Hong Kong has one of the highest per capita incomes in the world. The dense space also led to a highly developed transportation network with the public transport travelling rate exceeding 90 percent, the highest in the world. Hong Kong has numerous high international rankings in various aspects. For instance, its economic freedom, financial and economic competitiveness, quality of life, corruption perception, Human Development Index are all ranked highly. According to estimates from both UN and WHO, Hong Kong had the longest life expectancy of any region in the world in 2012. Hong Kong also has the highest average IQ score among 81 countries around the world.",
+    "categories": []
+  },  
+  {
+    "name": "Singapore",
+    "country": "Republic of Singapore",
+    "subtitle": "The garden city",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Marina_Bay_Sands_in_the_evening_-_20101120.jpg",
+    "price": 1190,
+    "tags": [],
+    "pos": {
+      "lat": 1.283333,
+      "lon": 103.800003
+    },
+    "text": "Singapore (/ˈsɪŋəpɔər/ or /ˈsɪŋɡəpɔər/), officially the Republic of Singapore, is a sovereign city-state and island country in Southeast Asia. It lies off the southern tip of the Malay Peninsula and is 137 kilometres (85 mi) north of the equator. The country's territory consists of the lozenge-shaped main island, commonly referred to as Singapore Island in English and Pulau Ujong in Malay, and more than 60 significantly smaller islets. Singapore is separated from Peninsular Malaysia by the Straits of Johor to the north, and from Indonesia's Riau Islands by the Singapore Strait to the south. The country is highly urbanised, and little of the original vegetation remains. The country's territory has consistently expanded through land reclamation.The islands were settled in the second century AD and subsequently belonged to a series of local empires. Modern Singapore was founded in 1819 by Sir Stamford Raffles as a trading post of the East India Company with permission from the Johor Sultanate. The British obtained sovereignty over the island in 1824, and Singapore became one of the British Straits Settlements in 1826. Occupied by the Japanese during World War II, Singapore declared independence from the United Kingdom in 1963 and united with other former British territories to form Malaysia, from which it was expelled two years later through a unanimous act of parliament. Since then, Singapore has developed rapidly, earning recognition as one of the Four Asian Tigers.Singapore is one of the world's major commercial hubs, with the fourth-biggest financial centre and one of the five busiest ports. Its globalised and diversified economy depends heavily on trade, especially manufacturing, which represented 26 percent of Singapore's GDP in 2005. In terms of purchasing power parity, Singapore has the third-highest per capita income in the world. It places highly in international rankings with regard to education, healthcare, government transparency, and economic competitiveness.Singapore is a unitary multiparty parliamentary republic, with a Westminster system of unicameral parliamentary government. The People's Action Party has won every election since self-government began in 1959. Just over five million people live in Singapore, of which approximately two million are foreign-born. While Singapore is diverse, ethnic Asians predominate: 75 percent of the population is Chinese, with significant minorities of Malays, Indians, and Eurasians. There are four official languages, English, Malay, Chinese, and Tamil, and the country promotes multiculturalism through a range of official policies.One of the five founding members of the Association of South East Asian Nations (ASEAN), Singapore is also the host of the APEC Secretariat, and a member of the East Asia Summit, the Non-Aligned Movement, and the Commonwealth. Singapore's rapid development has given it significant influence in global affairs, leading some analysts to identify it as a middle power.",
+    "categories": []
+  },
+    {
+    "name": "Bangkok",
+    "country": "Thailand",
+    "subtitle": "City of angels",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/5/54/Klongs.jpg",
+    "price": 990,
+    "tags": [],
+    "pos": {
+      "lat": 13.750000,
+      "lon": 13.750000
+    },
+    "text": "Bangkok (English pronunciation: /ˈbæŋkɒk/) is the capital and the most populous city of Thailand. It is known in Thai as Krung Thep Maha Nakhon (กรุงเทพมหานคร, pronounced [krūŋ tʰêːp mahǎː nákʰɔ̄ːn] ) or simply About this sound Krung Thep . The city occupies 1,568.7 square kilometres (605.7 sq mi) in the Chao Phraya River delta in Central Thailand, and has a population of over eight million, or 12.6 percent of the country's population. Over fourteen million people (22.2 percent) live within the surrounding Bangkok Metropolitan Region, making Bangkok an extreme primate city, dwarfing Thailand's other urban centres in terms of importance.Bangkok traces its roots to a small trading post during the Ayutthaya Kingdom in the 15th century, which eventually grew in size and became the site of two capital cities: Thonburi in 1768 and Rattanakosin in 1782. Bangkok was at the heart of Siam's (as Thailand used to be known) modernization during the later nineteenth century, as the country faced pressures from the West. The city was the centre stage of Thailand's political struggles throughout the twentieth century, as the country abolished absolute monarchy, adopted constitutional rule and underwent numerous coups and uprisings. The city grew rapidly during the 1960s through the 1980s and now exerts a significant impact among Thailand's politics, economy, education, media and modern society.The Asian investment boom in the 1980s and 1990s led many multinational corporations to locate their regional headquarters in Bangkok. The city is now a major regional force in finance and business. It is an international hub for transport and health care, and is emerging as a regional centre for the arts, fashion and entertainment. The city's vibrant street life and cultural landmarks, as well as its notorious red-light districts, have given it an exotic appeal. The historic Grand Palace and Buddhist temples including Wat Arun and Wat Pho stand in contrast with other tourist attractions such as the nightlife scenes of Khaosan Road and Patpong. Bangkok is among the world's top tourist destinations. It is named the most visited city in MasterCard's Global Destination Cities Index, and has been named "World's Best City" for four consecutive years by Travel + Leisure magazine.Bangkok's rapid growth amidst little urban planning and regulation has resulted in a haphazard cityscape and inadequate infrastructure systems. Limited roads, despite an extensive expressway network, together with substantial private car usage, have resulted in chronic and crippling traffic congestion. This in turn caused severe air pollution in the 1990s. The city has since turned to public transport in an attempt to solve this major problem. Four rapid transit lines are now in operation, with more systems under construction or planned by the national government and the Bangkok Metropolitan Administration.""
+    "categories": []
+  },
+    {
+    "name": "Paris",
+    "country": "France",
+    "subtitle": "The City of Light",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/1/13/Arc_de_Triomphe_-_Paris.jpg",
+    "price": 390,
+    "tags": [],
+    "pos": {
+      "lat": 48.856701,
+      "lon": 2.350800
+    },
+    "text": "Paris (English /ˈpærɪs/, /ˈpɛərɪs/; French: [paʁi] ) is the capital and most populous city of France. It is situated on the Seine River, in the north of the country, at the heart of the Île-de-France region. Within its administrative limits (the 20 arrondissements), the city had 2,234,105 inhabitants in 2009 while its metropolitan area is one of the largest population centres in Europe with more than 12 million inhabitants.An important settlement for more than two millennia, by the late 12th century Paris had become a walled cathedral city that was one of Europe's foremost centres of learning and the arts and the largest city in the Western world until the turn of the 18th century. Paris was the focal point for many important political events throughout its history, including the French Revolution. Today it is one of the world's leading business and cultural centres, and its influence in politics, education, entertainment, media, science, fashion and the arts all contribute to its status as one of the world's major cities. The city has one of the largest GDPs in the world, €607 billion (US$845 billion) as of 2011, and as a result of its high concentration of national and international political, cultural and scientific institutions is one of the world's leading tourist destinations. The Paris Region hosts the world headquarters of 30 of the Fortune Global 500 companies in several business districts, notably La Défense, the largest dedicated business district in Europe.Centuries of cultural and political development have brought Paris a variety of museums, theatres, monuments and architectural styles. Many of its masterpieces such as the Louvre and the Arc de Triomphe are iconic buildings, especially its internationally recognized symbol, the Eiffel Tower. Long regarded as an international centre for the arts, works by history's most famous painters can be found in the Louvre, the Musée d'Orsay and its many other museums and galleries. Paris is a global hub of fashion and has been referred to as the "international capital of style", noted for its haute couture tailoring, its high-end boutiques, and the twice-yearly Paris Fashion Week. It is world renowned for its haute cuisine, attracting many of the world's leading chefs. Many of France's most prestigious universities and Grandes Écoles are in Paris or its suburbs, and France's major newspapers Le Monde, Le Figaro, Libération are based in the city, and Le Parisien in Saint-Ouen near Paris.Paris is home to the association football club Paris Saint-Germain FC and the rugby union club Stade Français. The 80,000-seat Stade de France, built for the 1998 FIFA World Cup, is located in Saint-Denis. Paris hosts the annual French Open Grand Slam tennis tournament on the red clay of Roland Garros. Paris played host to the 1900 and 1924 Summer Olympics, the 1938 and 1998 FIFA World Cup, and the 2007 Rugby World Cup. The city is a major rail, highway, and air-transport hub, served by the two international airports Paris-Charles de Gaulle and Paris-Orly. Opened in 1900, the city's subway system, the Paris Métro, serves 5.23 million passengers daily. Paris is the hub of the national road network, and is surrounded by three orbital roads: the Périphérique, the A86 motorway, and the Francilienne motorway in the outer suburbs.",
+    "categories": []
+  },
+ {
+    "name": "Macao",
+    "country": "China",
+    "subtitle": "The little portuguese",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/3/3b/Macau_Penha_Hill.jpg",
+    "price": 990,
+    "tags": [],
+    "pos": {
+      "lat": 22.166666,
+      "lon": 113.550003
+    },
+    "text": "Macau (/məˈkaʊ/; traditional Chinese: 澳門; simplified Chinese: 澳门; pinyin: Àomén), also spelled Macao, is one of the two Special Administrative Regions of the People's Republic of China, the other being Hong Kong. Macau lies on the western side of the Pearl River Delta across from Hong Kong to the east, bordered by Guangdong Province to the north and facing the South China Sea to the east and south. The territory's economy is heavily dependent on gambling and tourism, but also includes manufacturing. The Cantonese people from Hong Kong and Guangdong, especially recent mainland tourism from Mandarin-speaking regions, have boosted the economy of Macau significantly.A former Portuguese colony, Macau was administered by Portugal from the mid-16th century until late 1999, when it was the last remaining European colony in Asia. Portuguese traders first settled in Macau in the 1550s. In 1557, Macau was rented to Portugal by the Chinese empire as a trading port. The Portuguese administered the city under Chinese authority and sovereignty until 1887, when Macau became a colony of the Portuguese empire. Sovereignty over Macau was transferred back to China on 20 December 1999. The Sino-Portuguese Joint Declaration and the Basic Law of Macau stipulate that Macau operate with a high degree of autonomy until at least 2049, fifty years after the transfer. By 2002, it had become one of the world's richest cities. It became the world's biggest gambling centre in 2006.Under the policy of "one country, two systems", the PRC's Central People's Government is responsible for the territory's defense and foreign affairs, while Macau maintains its own legal system, police force, monetary system, customs policy, and immigration policy. Macau participates in many international organizations and events that do not require members to possess national sovereignty.According to The World Factbook, Macau has the second highest life expectancy in the world. In addition, Macau is one of the very few regions in Asia with a "very high Human Development Index", ranking 23rd or 24th in the world in 2007 (with Japan being the highest in Asia; the other Asian countries/regions within the "very high HDI" category are South Korea, Taiwan, Hong Kong, Singapore, and Brunei).",
+    "categories": []
+  },
+      {
+    "name": "New York",
+    "country": "United States",
+    "subtitle": "The big apple",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/8/8d/3069-Times_Square.JPG",
+    "price": 890,
+    "tags": [],
+    "pos": {
+      "lat": 40.712700,
+      "lon": -74.005898
+    },
+    "text": "New York is the most populous city in the United States and the center of one of the most populous urban agglomerations in the world—the New York metropolitan area.The city is referred to as New York City or the City of New York to distinguish it from the State of New York, of which it is a part.A global power city,New York exerts a significant impact upon commerce, finance, media, art, fashion, research, technology, education, and entertainment. The home of the United Nations Headquarters,New York is an important center for international diplomacyand has been described as the cultural and financial capital of the world.On one of the world's largest natural harbors,New York City consists of five boroughs, each of which is a county of New York State.The five boroughs—the Bronx, Brooklyn, Manhattan, Queens, and Staten Island—were consolidated into a single city in 1898.With a census-estimated 2013 population of 8,405,837 distributed over a land area of just 305 square miles (790 km2),New York is the most densely populated major city in the United States.As many as 800 languages are spoken in New York, making it the most linguistically diverse city in the world.By 2013 census estimates, the New York Metropolitan Area's population remains by a significant margin the United States' largest Metropolitan Statistical Area, with approximately 19.9 million people, and is also part of the most populous Combined Statistical Area in the United States, containing an estimated 23.4 million people.New York traces its roots to its 1624 founding as a trading post by colonists of the Dutch Republic and was named New Amsterdam in 1626.The city and its surroundings came under English control in 1664New York served as the capital of the United States from 1785 until 1790.It has been the country's largest city since 1790.The Statue of Liberty greeted millions of immigrants as they came to America by ship in the late 19th and early 20th centuriesand is a globally recognized symbol of the United States and its democracy.Many districts and landmarks in New York City have become well known to its approximately 55 million annual visitors. Several sources have ranked New York the most photographed city in the world. Times Square, iconified as "The Crossroads of the World",is the brightly illuminated hub of the Broadway Theater District,one of the world's busiest pedestrian intersections,and a major center of the world's entertainment industry.The names of many of the city's bridges, skyscrapers,and parks are known around the world. New York City's financial district, anchored by Wall Street in Lower Manhattan, has been called the world's leading financial centerand is home to the New York Stock Exchange, the world's largest stock exchange by total market capitalization of its listed companies.Manhattan's real estate market is among the most expensive in the world. Manhattan's Chinatown incorporates the highest concentration of Chinese people in the Western Hemisphere, with several signature Chinatowns developing across the city.Providing continuous 24/7 service,the New York City Subway is one of the most extensive metro systems worldwide, with 468 stations in operation. Numerous colleges and universities are located in New York,including Columbia University, New York University, and Rockefeller University, which have been ranked among the top 35 in the world.",
+    "categories": []
+  },
+    {
+    "name": "Kuala Lumpur",
+    "country": "Malaysia",
+    "subtitle": "Garden City of Lights",
+    "picture": "http://commons.wikimedia.org/wiki/Kuala_Lumpur#/media/File:View_on_KL.JPG",
+    "price": 890,
+    "tags": [],
+    "pos": {
+      "lat": 3.135700,
+      "lon": 101.688004
+    },
+    "text": "Kuala Lumpur (Malaysian pronunciation: [ˈkwalə ˈlumpʊr]), often abbreviated as K.L., is the federal capital and most populous city in Malaysia. The city covers an area of 243 km2 (94 sq mi) and has an estimated population of 1.6 million as of 2010. Greater Kuala Lumpur, also known as the Klang Valley, is an urban agglomeration of 6.9 million as of 2010. It is among the fastest growing metropolitan regions in the country, in terms of population and economy.Kuala Lumpur is the seat of the Parliament of Malaysia. The city was once home to the executive and judicial branches of the federal government, but they were moved to Putrajaya in early 1999. Some sections of the judiciary still remains in the capital city of Kuala Lumpur. The official residence of the Malaysian King, the Istana Negara, is also situated in Kuala Lumpur. Rated as an alpha world city, Kuala Lumpur is the cultural, financial and economic centre of Malaysia due to its position as the capital as well as being a key city. Kuala Lumpur was ranked 48th among global cities by Foreign Policy's 2010 Global Cities Index and was ranked 67th among global cities for economic and social innovation by the 2thinknow Innovation Cities Index in 2010.Kuala Lumpur is defined within the borders of the Federal Territory of Kuala Lumpur and is one of three Malaysian Federal Territories. It is an enclave within the state of Selangor, on the central west coast of Peninsular Malaysia.Since the 1990s, the city has played host to many international sporting, political and cultural events including the 1998 Commonwealth Games and the Formula One Grand Prix. In addition, Kuala Lumpur is home to the tallest twin buildings in the world, the Petronas Twin Towers, which have become an iconic symbol of Malaysia's futuristic development.",
+    "categories": []
+  },
+      {
+    "name": "Antalya",
+    "country": "Turkey",
+    "subtitle": "Turkish Riviera",
+    "picture": "http://commons.wikimedia.org/wiki/Category:Antalya#/media/File:Antalya_marina.jpg",
+    "price": 350,
+    "tags": [],
+    "pos": {
+      "lat": 36.900002,
+      "lon": 36.900002
+    },
+    "text": "Antalya (Turkish pronunciation: [anˈtalja]) is a city on the Mediterranean coast of southwestern Turkey. It is Turkey's biggest international sea resort, located on the Turkish Riviera.In 2011 the city had a population of 964,886 and the metropolitan municipality 1,041,972.In 2012, Antalya became the third most visited city in the world by number of international arrivals, ranking behind Paris and London, respectively. Antalya previously ranked fourth in the world in 2010 and 2011, with over 10.5 million visitors in 2011.",
+    "categories": []
+  },
+     {
+    "name": "Istanbul",
+    "country": "Turkey",
+    "subtitle": "Nova Roma",
+    "picture": "http://commons.wikimedia.org/wiki/%C4%B0stanbul#/media/File:Bosphorus.jpg",
+    "price": 350,
+    "tags": [],
+    "pos": {
+      "lat": 41.013611,
+      "lon": 28.955000
+    },
+    "text": "Istanbul (Turkish: İstanbul) is the largest city in Turkey, constituting the country's economic, cultural, and historical heart. With a population of 14.1 million, the city forms one of the largest urban agglomerations in Europe, second largest in the Middle East and the third-largest city in the world by population within city limits. Istanbul's vast area of 5,343 square kilometers (2,063 sq mi) is coterminous with Istanbul Province, of which the city is the administrative capital. Istanbul is a transcontinental city, straddling the Bosphorus—one of the world's busiest waterways—in northwestern Turkey, between the Sea of Marmara and the Black Sea. Its commercial and historical center lies in Europe, while a third of its population lives in Asia.Founded on the Sarayburnu promontory around 660 BC as Byzantium, the city now known as Istanbul developed to become one of the most significant cities in history. For nearly sixteen centuries following its reestablishment as Constantinople in 330 AD, it served as the capital of four empires: the Roman Empire (330–395), the Byzantine Empire (395–1204 and 1261–1453), the Latin Empire (1204–1261), and the Ottoman Empire (1453–1922). It was instrumental in the advancement of Christianity during Roman and Byzantine times, before the Ottomans conquered the city in 1453 and transformed it into an Islamic stronghold and the seat of the last caliphate. Although the Republic of Turkey established its capital in Ankara, palaces and imperial mosques still line Istanbul's hills as visible reminders of the city's previous central role.Istanbul's strategic position along the historic Silk Road, rail networks to Europe and the Middle East, and the only sea route between the Black Sea and the Mediterranean have helped foster an eclectic populace, although less so since the establishment of the Republic in 1923. Overlooked for the new capital during the interwar period, the city has since regained much of its prominence. The population of the city has increased tenfold since the 1950s, as migrants from across Anatolia have flocked to the metropolis and city limits have expanded to accommodate them. Arts festivals were established at the end of the 20th century, while infrastructure improvements have produced a complex transportation network.Approximately 11.6 million foreign visitors arrived in Istanbul in 2012, two years after it was named a European Capital of Culture, making the city the world's fifth-most-popular tourist destination. The city's biggest draw remains its historic center, partially listed as a UNESCO World Heritage Site, but its cultural and entertainment hub can be found across the city's natural harbor, the Golden Horn, in the Beyoğlu district. Considered a global city, Istanbul is one of the fastest-growing metropolitan economies in the world. It hosts the headquarters of many Turkish companies and media outlets and accounts for more than a quarter of the country's gross domestic product. Hoping to capitalize on its revitalization and rapid expansion, Istanbul bid for the Summer Olympics five times in twenty years.",
+    "categories": []
+  },
+      {
+    "name": "Dubaï",
+    "country": "The United Arab Emirate",
+    "subtitle": "City of angels",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/5/54/Klongs.jpg",
+    "price": 990,
+    "tags": [],
+    "pos": {
+      "lat": 13.750000,
+      "lon": 13.750000
+    },
+    "text": "Dubai (/duːˈbaɪ/ doo-BY; Arabic: دبيّ‎ Dubayy, IPA: [dʊˈbæj]) is an emirate in the United Arab Emirates (UAE) federation. The main city of the emirate is also called Dubai. The emirate is located on the southeast coast of the Persian Gulf and is one of the seven emirates that make up the country. It has the largest population in the UAE (2,106,177) and the second-largest land territory (4,114 km2) after the capital, Abu Dhabi. Abu Dhabi and Dubai are the only two emirates to have veto power over critical matters of national importance in the country's legislature. The city of Dubai is located on the emirate's northern coastline and heads up the Dubai-Sharjah-Ajman metropolitan area.The earliest mention of Dubai is in 1095 AD, and the earliest recorded settlement in the region dates from 1799. Dubai was formally established on June 9, 1833, by Sheikh Maktoum bin Butti Al-Maktoum when he persuaded around 800 members of his tribe of the Bani Yas, living in what was then the Second Saudi State, to follow him to the Dubai Creek by the Abu Falasa clan of the Bani Yas. It remained under the tribe's control when the United Kingdom agreed to protect the Sheikhdom in 1892 and joined the nascent United Arab Emirates upon independence in 1971 as the country's second emirate. Its strategic geographic location made the town an important trading hub, and by the beginning of the 20th century, Dubai was already an important regional port.Today, Dubai has emerged as a cosmopolitan metropolis that has grown steadily to become a global city and a business and cultural hub of the Middle East and the Persian Gulf region. It is also a major transport hub for passengers and cargo. Although Dubai's economy was historically built on the oil industry, the emirate's Western-style model of business drives its economy with the main revenues now coming from tourism, aviation, real estate, and financial services. Dubai has recently attracted world attention through many innovative large construction projects and sports events. The city has become symbolic for its skyscrapers and high-rise buildings, in particular the world's tallest building, the Burj Khalifa. In addition, Dubai is home to other ambitious development projects including man-made islands, hotels, and some of the largest shopping malls in the region and the world. This increased attention has also highlighted labor and human rights issues concerning the city's largely South Asian workforce. Dubai's property market experienced a major deterioration in 2008–2009 following the financial crisis of 2007-2008, but is making a gradual recovery with help from neighboring emirates.As of 2012, Dubai is the 22nd most expensive city in the world and the most expensive city in the Middle East. Dubai was rated as one of the best places to live in the Middle East by American global consulting firm Mercer.",
+    "categories": []
+  },
