@@ -63,7 +63,7 @@
     "name": "Hong Kong",
     "country": "China",
     "subtitle": "Fragrant Harbour",
-    "picture1": "http://upload.wikimedia.org/wikipedia/commons/2/23/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/2/23/Hong_Kong_Skyline_Restitch_-_Dec_2007.jpg",
     "price": 1287,
     "pos": {
       "lat": 22.267000,
