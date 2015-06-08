@@ -30,7 +30,7 @@ var _ = require('underscore');
 var pubsub = require('pubsub');
 
 // Store the root of your application, used for routing
-window._ROOT = '/www.sepage.com'; 
+window._ROOT = ''; 
 
 // Start router
 router.init(_ROOT);
@@ -45,7 +45,7 @@ MR.apiRequest = {
 	// user ID available in var MR.userID
 	getCitiesList: function(callback){
 		// GET     /api/cities 
-		var _url = 'assets/data/cities.json';
+		var _url = '/api/cities';
 		
 		xhr({url: _url, json: true}, function (err, resp, body) {
 		    var dataAPI = {}
@@ -56,39 +56,54 @@ MR.apiRequest = {
 
 	likeCity: function(id, callback){
 		//POST    /api/cities/:id/like
+    var _url = '/api/cities/' + id + '/like'
 
 		// after request result:
-		var dataAPI = {'liked':981, 'disliked':665}
-		console.log(dataAPI)
-		pubsub.emit('updateHeaderCounters', dataAPI) // header update, see header.js
-		callback()
+    xhr({url: _url, json: true, method: "POST"}, function (err, resp, body) {
+      var dataAPI = body
+      console.log(dataAPI)
+      pubsub.emit('updateHeaderCounters', dataAPI)
+      callback()
+    });
 	},
 
 	unlikeCity: function(id, callback){
 		//DELETE  /api/cities/:id/like
+    var _url = '/api/cities/' + id + '/like'
 
 		// after request result:
-		var dataAPI = {'liked':981, 'disliked':665}
-		pubsub.emit('updateHeaderCounters', dataAPI) // header update, see header.js
-		callback()
+    xhr({url: _url, json: true, method: "DELETE"}, function (err, resp, body) {
+      var dataAPI = body
+      console.log(dataAPI)
+      pubsub.emit('updateHeaderCounters', dataAPI)
+      callback()
+    });
 	},
 
 	rejectCity: function(id, callback){
 		//POST    /api/cities/:id/dislike
+    var _url = '/api/cities/' + id + '/dislike'
 
-		// after request result: 
-		var dataAPI = {'liked':979, 'disliked':667}
-		pubsub.emit('updateHeaderCounters', dataAPI) // header update, see header.js
-		callback()
+		// after request result:
+    xhr({url: _url, json: true, method: "POST"}, function (err, resp, body) {
+      var dataAPI = body
+      console.log(dataAPI)
+      pubsub.emit('updateHeaderCounters', dataAPI)
+      callback()
+    });
 	},
 
 	unrejectCity: function(id, callback){
 		//DELETE  /api/cities/:id/dislike
+    var _url = '/api/cities/' + id + '/dislike'
 
-		// after request result: 
-		var dataAPI = {'liked':979, 'disliked':667}
-		pubsub.emit('updateHeaderCounters', dataAPI) // header update, see header.js
-		callback()
+		// after request result:
+    xhr({url: _url, json: true, method: "DELETE"}, function (err, resp, body) {
+      var dataAPI = body
+      console.log(dataAPI)
+      pubsub.emit('updateHeaderCounters', dataAPI)
+      callback()
+    });
 	},
 
 	showCity: function(idCity, callback){
