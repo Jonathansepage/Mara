@@ -3,7 +3,7 @@
     "name": "Los Angeles",
     "country": "United States",
     "subtitle": "The city of angels",
-    "picture": "http://upload.wikimedia.org/wikipedia/commons/0/0e/Echo_Park_Lake.jpg",
+    "picture": "https://c1.staticflickr.com/9/8459/7916249448_7c810b6490_c.jpg",
     "price": 987,
     "pos": {
       "lat": 34.05,
@@ -15,7 +15,7 @@
     "name": "London",
     "country": "United Kingdom",
     "subtitle": "The capital and most populous city of England",
-    "picture": "http://upload.wikimedia.org/wikipedia/commons/3/3a/London_from_a_hot_air_balloon.jpg",
+    "picture": "https://c2.staticflickr.com/6/5565/14691013993_590afe217a_k.jpg",
     "price": 987,
     "pos": {
       "lat": 51.507222,
@@ -27,7 +27,7 @@
     "name": "San Francisco",
     "country": "United States",
     "subtitle": "Fog City",
-    "picture": "http://upload.wikimedia.org/wikipedia/commons/c/cd/SanFrancisco_from_TwinPeaks_dusk_MC.jpg",
+    "picture": "https://c1.staticflickr.com/3/2862/10936924134_84828bde6b_k.jpg",
     "price": 1275,
     "pos": {
       "lat": 37.783333,
@@ -40,7 +40,7 @@
     "country": "Australia",
     "subtitle": "the Harbour City",
     "picture": "http://upload.wikimedia.org/wikipedia/commons/5/5c/Sydney_skyline_at_dusk_-_Dec_2008.jpg",
-    "price": 987,
+    "price": 1099,
     "pos": {
       "lat": 34.05,
       "lon": -118.25
@@ -147,7 +147,7 @@
     "name": "Antalya",
     "country": "Turkey",
     "subtitle": "Turkish Riviera",
-    "picture": "http://commons.wikimedia.org/wiki/Category:Antalya#/media/File:Antalya_marina.jpg",
+    "picture": "https://c2.staticflickr.com/8/7054/6846612490_b7772e2efc_b.jpg",
     "price": 350,
     "pos": {
       "lat": 36.900002,
@@ -231,7 +231,7 @@
     "name": "Miami",
     "country": "United States",
     "subtitle": "Capital of Latin America",
-    "picture": "https://farm9.staticflickr.com/8646/15999937131_b877ebb35c_o_d.jpg",
+    "picture": "https://c2.staticflickr.com/4/3072/2720195951_01bbf04118_n.jpg",
     "price": 890,
     "pos": {
       "lat": 25.787676,
@@ -459,7 +459,7 @@
     "name": "Warsaw",
     "country": "Poland",
     "subtitle": "phoenix city",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Warszawa_-_ko%C5%9Bci%C3%B3%C5%82_%C5%9Bw._Anny_i_kolumna_Zygmunta_III_Wazy.jpg",
+    "picture": "https://c1.staticflickr.com/9/8169/7989776770_1f5613f992_b.jpg",
     "price": 350,
     "pos": {
       "lat": 52.233334,
@@ -471,7 +471,7 @@
     "name": "Doha",
     "country": "Qatar",
     "subtitle": "The big tree",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/1/19/Modern_Doha.jpg",
+    "picture": "https://c2.staticflickr.com/8/7066/6802688722_0d2d5b75af_k.jpg",
     "price": 890,
     "pos": {
       "lat": 25.286667,
@@ -495,7 +495,7 @@
     "name": "New Delhi",
     "country": "India",
     "subtitle": "The city of positivism",
-    "picture": "http://upload.wikimedia.org/wikipedia/commons/c/ce/Humayuns_Tomb_Delhi_31-05-2005_pic1.jpg",
+    "picture": "https://c2.staticflickr.com/6/5264/5630367901_c76f8da5c5_b.jpg",
     "price": 1080,
     "pos": {
       "lat": 28.613890,
@@ -507,7 +507,7 @@
     "name": "Bombay",
     "country": "India",
     "subtitle": "The Island City",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/d/de/Hira-1.jpg",
+    "picture": "https://c2.staticflickr.com/4/3902/15059631467_269bee9716_b.jpg",
     "price": 1099,
     "pos": {
       "lat": 18.975000,
@@ -519,7 +519,7 @@
     "name": "Chennai",
     "country": "India",
     "subtitle": "TWelcome to Madras",
-    "picture": "https://www.flickr.com/photos/mithunjames/4285077896/in/photolist-7wE9no-e7HNqr-9AAeMc-oTfovH-dpWF5B-pM4uup-5HwzMJ-hM2Ksq-dn9LBC-eiHAMB-oRtKbG-26TMq-7sK5AS-7sFcUa-7vTHt5-igxUEC-hXpsPb-i23wHk-9ot7JT-ehDvDb-adacwC-j2PgkS-iZZTcm-edjuJ3-7H54Kk-a82vkt-aRgdFa-aounGe-j78BEN-iroSL3-dDYW1C-9bf6Kd-eioHdq-aPAmFe-8jhtUf-7PfkFE-7Ptkni-dsscQg-7NW3vW-ickUYa-8nstoS-7Cu47w-iYg4CU-bxQDJR-7LoNjd-dBVrWe-a3fCve-8tmT6q-7KjZjr-eh1uBT",
+    "picture": "https://c1.staticflickr.com/5/4017/4285077896_d35ec554ba_b.jpg",
     "price": 1050,
     "pos": {
       "lat": 13.083889,
@@ -531,7 +531,7 @@
     "name": "Mexico",
     "country": "México",
     "subtitle": "The Pearl on the Pecos",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/9/98/Mexico_City_Zocalo_Cathedral.jpg",
+    "picture": "https://c2.staticflickr.com/4/3901/14977049106_8fc75b7d5f_n.jpg",
     "price": 1280,
     "pos": {
       "lat": 19.433332,
@@ -543,7 +543,7 @@
     "name": "Dublin",
     "country": "Irland",
     "subtitle": "Dia duit !",
-    "picture": "https://www.flickr.com/photos/flynn_nrg/6491291177/in/photolist-aTByHp-64cBJJ-eaLTVB-4BT1JD-6rW5ai-6cDSPh-3giWt5-twRet1-hAbX5v-qhwFvN-r6MUQr-rmMLAp-64cBz3-nsXAUm-nYdgHU-pWe3Nq-sW4sqx-hepM3u-oveGHE-6QLi1k-bynjBh-jEpmRC-uaDx3a-qzeGx5-s8bzYp-a2Ktbf-dFBL8e-9uBBbU-hBiDni-tnXLFC-dtqeeJ-yA97X-jUhN4R-nXjv2a-oeuNKh-bKA2S8-qZU1QS-nTrRFC-qEXj8b-9ScCHi-6tJ3XT-fbRngH-nuWaUe-qR7ppP-xacMR-mSPwd4-r3NFDh-qxQZN1-ofqbiu-8q3Z2h",
+    "picture": "https://c4.staticflickr.com/8/7012/6491291177_8cd4b88652_b.jpg",
     "price": 590,
     "pos": {
       "lat": 53.347778,
