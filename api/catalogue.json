@@ -171,7 +171,7 @@
     "name": "Dubaï",
     "country": "The United Arab Emirate",
     "subtitle": "The Gold Coast",
-    "picture": "http://upload.wikimedia.org/wikipedia/commons/e/ee/Wild-wadi.jpg",
+    "picture": "https://c2.staticflickr.com/8/7134/7023368861_0765d0005f_b.jpg",
     "price": 690,
     "pos": {
       "lat": 25.250000,
@@ -207,7 +207,7 @@
     "name": "Mecca",
     "country": " Saudi Arabi",
     "subtitle": "The Holy City of Mecca",
-    "picture": "http://upload.wikimedia.org/wikipedia/commons/4/45/Makka.jpeg",
+    "picture": "https://c1.staticflickr.com/9/8595/15992517381_8980aacfbe_h.jpg",
     "price": 690,
     "pos": {
       "lat": 21.416666,
