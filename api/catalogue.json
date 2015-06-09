@@ -551,3 +551,730 @@
     },
     "text": "Dublin (/ˈdʌblɨn/; Irish: Baile Átha Cliath, pronounced [blʲaˈklʲiə]) is the capital of Ireland. Dublin is in the province of Leinster on Ireland's east coast, at the mouth of the River Liffey.Founded as a Viking settlement, the Kingdom of Dublin became Ireland's principal city following the Norman invasion. The city expanded rapidly from the 17th century and was briefly the second largest city in the British Empire before the Act of Union in 1800. Following the partition of Ireland in 1922, Dublin became the capital of the Irish Free State and later the Republic of Ireland.Dublin is administered by a City Council. The city is listed by the Globalization and World Cities Research Network (GaWC) as a global city, with a ranking of "Alpha-", placing it among the top thirty cities in the world. It is a historical and contemporary centre for education, the arts, administration, economy and industry.",
   }
+  {
+    "name": "Hangzhou",
+    "country": "China",
+    "subtitle": "\"West lake city’s"\",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/5/5c/West_Lake.JPG",
+    "price": 875,
+    "tags": [],
+    "pos": {
+      "lat": 30.2552778,
+      "lon": 120.1688889,
+    },
+    "text": \ "Situated on the Grand Canal, 1800km of navigable water between Beijing and Shanghai, Hangzhou was once a major river port and a centre of the silk industry. This link provided more than just commercial rewards, as the city became a capital under the Song dynasty and experienced a period of unequalled sophistication that lasted until the Mongol invasions. As in the past, Hangzhou is now renowned for its delightful location on the West Lake, surrounded by hills and gardens. The city was much admired by Marco Polo and thousands of tourists after him.",
+    "categories": []
+  },
+
+
+  {
+    "name": "Denpasar",
+    "country": "Indonesia",
+    "subtitle": "\"The heart of Bali"\",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/thumb/6/65/1_pura_taman_ayun_bali_2011.jpg/1280px-1_pura_taman_ayun_bali_2011.jpg",
+    "price": 960,
+    "tags": [],
+    "pos": {
+      "lat": -8.65,
+      "lon": 115.2166667,
+    },
+    "text": "Denpasar is the capital and the most populous city of the Indonesian province of Bali. Situated on the island of Bali, it is known worldwide as a major tourist destination, and is the main gateway to Bali. The city is also a hub for other cities in the Lesser Sunda Islands.
+With the rapid growth of the tourism industry in Bali, Denpasar has encouraged and promoted business activities and ventures, contributing to it having the highest growth rate in Bali Province. The population of Denpasar was 834,881 in 2012,up from 788,445 at the 2010 Census. The surrounding metropolitan area has roughly 2 million residents. The municipality's area extent, population, and density are similar to San Francisco.
+": []
+  },
+
+
+
+  {
+    "name": "St. Petersburg",
+    "country": "Russia",
+    "subtitle": "\"The Russia's imperial capital"\",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/2/2a/St_Petersburg_Neva_River004.jpg",
+    "price": 540,
+    "tags": [],
+    "pos": {
+      "lat": 59.8944444,
+      "lon": 30.2641667,
+    },
+    "text": "St. Petersburg is above all an imperial city, created from scratch by Peter the Great on marshland at the mouth of the Neva and embellished by the Empresses Elizabeth Petrovna and Catherine II. It is also a city where two revolutions took place, in 1905 and 1917, as well as a deadly siege from 1941 to 1944 when it was still known as Leningrad. With its bridges, princely palaces extending down the magnificent Nevsky Prospekt, onion-domed cathedrals, museums (among the world’s richest), and prestigious theatres, St. Petersburg is a fascinating destination for visitors. The enchantment continues in the city’s outskirts with the imperial palaces that were the summer residences of the tsars.
+": []
+  },
+
+  {
+    "name": "Marmaris",
+    "country": "Turkey",
+    "subtitle": "\"Where serenity meets turquoise in a unique harmony"\",
+"picture":"http://upload.wikimedia.org/wikipedia/commons/d/dd/Marmaris_harbor_at_sunset%2C_Mu%C4%9Fla_Province%2C_southwest_Turkey%2C_Mediterranean.jpg",
+    "price": 490,
+    "tags": [],
+    "pos": {
+      "lat": 59.8944444,
+      "lon": 30.2641667,
+    },
+"text": "Marmaris is a port town and tourist resort on the Mediterranean coast, located in Muğla Province, southwest Turkey, along the shoreline of the Turkish Riviera.Marmaris' main source of income is tourism. Little is left of the sleepy fishing village that Marmaris was just a few decades ago, after a construction boom in the 1980s. Marmaris still retains its charm due to its exceptional location between two intersecting sets of mountains by the sea. As of 2010, the town's population was 30,957, peaking at around 300,000 to 400,000 people during the tourism season. Marmaris' nightlife rivals anything on the Turkish coast.It is also a centre for sailing and diving, possessing two major and several smaller marinas. It is a popular wintering location for hundreds of cruising boaters, being also served by the nearby Dalaman Airport.
+
+": []
+  },
+
+
+
+  {
+    "name": "Brussels",
+    "country": "Belgium",
+    "subtitle": "\"Capital of Belgium and Europeans!"\",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/9/91/Brussels_floral_carpet_B.jpg",
+    "price": 90,
+    "tags": [],
+    "pos": {
+      "lat": 50.833333,
+      "lon": 4.333333,
+    },
+"text": "Brussels is the capital and largest city of Belgium and the de facto capital of the European Union (EU). It is also the largest urban area in Belgium, comprising 19 municipalities, including the municipality of the City of Brussels, which de jure is the capital of Belgium, in addition to the seat of the French Community of Belgium and of the Flemish Community.Brussels has grown from a 10th-century fortress town founded by a descendant of Charlemagne to a sizeable city. The city has a population of 1.2 million and a metropolitan area with a population of over 1.8 million, both of them the largest in Belgium. Since the end of the Second World War, Brussels has been a principal centre for international politics. Hosting principal EU institutions, the secretariat of the Benelux and the headquarters of the North Atlantic Treaty Organization (NATO), the city has become the polyglot home of numerous international organisations, politicians, diplomats and civil servants.Historically Dutch-speaking, Brussels has seen a major shift to French since Belgian independence in 1830. Today, although the majority language is French, the city is officially bilingual. All road signs, street names, and many advertisements and services are shown in both languages. Brussels is increasingly becoming multilingual with increasing numbers of migrants, expatriates and minority groups speaking their own languages.
+
+
+
+": []
+  },
+
+
+
+  {
+    "name": "Munich",
+    "country": "Germany",
+    "subtitle": "\"World City with Heart"\",
+    "picture": "http://upload.wikimedia.org/wikipedia/commons/4/48/Munich_skyline.jpg",
+    "price": 180,
+    "tags": [],
+    "pos": {
+      "lat": 48.15,
+      "lon": 11.5833333,
+    },
+"text": "Situated near the Alps, the capital of Bavaria became the most important economic centre in southern Germany after the Second World War. In the early 21C, new districts are being built which combine the ideas of sustainable development and environmentally friendly forms of transport. Munich is now the second most popular tourist destination in Germany after Berlin. Art enthusiasts flock to the magnificent museums and Baroque churches, while the famous Beer Festival draws crowds of visitors eager to enjoy the festivities and the local brew!
+
+
+": []
+  },
+
+
+  {
+    "name": "Sydney",
+    "country": "Australia",
+    "subtitle": "\"The symbol of the entire country"\",  "picture":"http://upload.wikimedia.org/wikipedia/commons/7/7c/Sydney_Opera_House_-_Dec_2008.jpg",
+    "price": 1680,
+    "tags": [],
+    "pos": {
+      "lat": -33.8830555556,
+      "lon": 151.216666667,
+    },
+"text": "With its ultra-famous opera house Sydney is a symbol of the entire country, a city between land and sea where seaside pleasures blend with urban activities, where the pulse is creative and relaxed, and every neighbourhood features its own special identity. A cosmopolitan town that fires the imagination."
+: []
+  },
+
+
+  {
+    "name": "Edirne",
+    "country": "Turkey",
+    "subtitle": "\"The capital of the Ottoman Empire\"",  "picture":"http://upload.wikimedia.org/wikipedia/commons/9/91/Nagymecset_-_Edirne%2C_2014.10.22_%281%29.JPG",
+    "price": 540,
+    "tags": [],
+    "pos": {
+      "lat": 41.6744444,
+      "lon": 126.5608333,
+    },
+"text": "Edirne is a city in Eastern Thrace, the northwestern part of Turkey, close to the borders with Greece and Bulgaria. Edirne served as the third capital city of the Ottoman Empire from 1365 to 1453, before Constantinople (Istanbul) became the empire's fourth and final capital. At present, Edirne is the capital of the Edirne Province in Turkish Thrace. The city's estimated population in 2010 was 138,793, up from 119,298 in 2000. It has consulates of Bulgaria, Germany (Honorary), Greece, Romania (Honorary) and Slovakia (Honorary). Its sister cities are Haskovo and Yambol in Bulgaria and Alexandroupolis in Greece. There is a Jewish community.
+"
+: []
+  },
+
+
+  {
+    "name": "Toronto",
+    "country": "Canada",
+    "subtitle": "\" The Queen City\"",  "picture":"http://upload.wikimedia.org/wikipedia/commons/2/26/Skyline_of_Toronto_viewed_from_Harbour.jpg",
+    "price": 950,
+    "tags": [],
+    "pos": {
+      "lat": 43.666667,
+      "lon": -79.416667,
+    },
+"text": "Toronto is the most populous city in Canada and the provincial capital of Ontario. It is located in Southern Ontario on the northwestern shore of Lake Ontario. The history of Toronto began in the late 18th century when the British Crown purchased its land from the Mississaugas of the New Credit. The settlement established there became York, which lieutenant governor John Graves Simcoe designated as the capital of Upper Canada. The city was ransacked in the Battle of York during the War of 1812. In 1834, York became a city and renamed Toronto. It was damaged in two huge fires in 1849 and 1904. Since 1954, the city occasionally expanded its borders through amalgamation with surrounding municipalities, most recently occurring in 1998.According to the 2011 Census, the city has 2.6 million residents, making it the fifth-most populous city in North America. However, in 2012, the municipal government published a population estimate of 2,791,140, which led to media reports claiming Toronto as the fourth most populous city in North America and the most populous Great Lakes city, surpassing Chicago. The census metropolitan area (CMA) had a population of 5,583,064, and the Greater Toronto Area (GTA) had a population of 6,054,191 in the 2011 Census. Toronto is at the heart of the Greater Toronto Area, and of the densely populated region in Southern Ontario known as the Golden Horseshoe. Its cosmopolitan and international population reflects its role as an important destination for immigrants to Canada. Toronto is one of the world's most diverse cities by percentage of non-native-born residents, with about 49% of the population born outside Canada.As Canada's commercial capital, it is home to the Toronto Stock Exchange and the five largest banks in the nation. Leading economic sectors in the city include finance, business services, telecommunications, aerospace, transportation, media, arts, publishing, software production, medical research, education, tourism, and engineering. Toronto is considered an alpha world city by the Globalization and World Cities (GaWC) study group. The city is also consistently rated as one of the world's most livable cities by the Economist Intelligence Unit and the Mercer Quality of Living Survey.
+
+"
+: []
+  },
+
+
+  {
+    "name": "Lisbon",
+    "country": "Portugal",
+    "subtitle": "\" The white city"",  "picture":"http://upload.wikimedia.org/wikipedia/commons/3/30/Miradour_das_Portas_do_Sol.jpg",
+    "price": 350,
+    "tags": [],
+    "pos": {
+      "lat": 38.7166667,
+      "lon": -9.1333333,
+    },
+"text": "Lisbon is the capital and the largest city of Portugal with a population of 547,631 within its administrative limits on a land area of 84.8 square kilometres (32.7 sq mi). The urban area of Lisbon extends beyond the administrative city limits with a population of over 3 million on an area of 958 square kilometres (370 sq mi), making it the 11th most populous urban area in the European Union. About 3,035,000 people live in the Lisbon Metropolitan Area (which represents approximately 27% of the population of the country). Lisbon is the westernmost large city located in Europe, as well as its westernmost capital city and the only one along the Atlantic coast. It lies in the western Iberian Peninsula on the Atlantic Ocean and the River Tagus.Lisbon is recognised as a global city because of its importance in finance, commerce, media, entertainment, arts, international trade, education and tourism. It is one of the major economic centres on the continent, with a growing financial sector and the largest/second largest container port on Europe's Atlantic coast. Lisbon Portela Airport serves over 16 million passengers annually (2013); the motorway network and the high-speed rail system of (Alfa Pendular) link the main cities of Portugal. The city is the seventh-most-visited city in Southern Europe, after Istanbul, Rome, Barcelona, Madrid, Athens and Milan, with 1,740,000 tourists in 2009. The Lisbon region is the wealthiest NUTS II region in Portugal, GDP PPP per capita is 26,100 euros (4.7% higher than the average European Union's GDP PPP per capita). It is the tenth richest metropolitan area by GDP on the continent amounting to 110 billion euros and thus €39,375 per capita, 40% higher than the average European Union's GDP per capita. The city occupies 32nd place of highest gross earnings in the world. Most of the headquarters of multinationals in the country are located in the Lisbon area and it is the 9th city in the world in terms of quantity of international conferences. It is also the political centre of the country, as seat of Government and residence of the Head of State. The seat of the district of Lisbon and the centre of the NUTS II Lisbon region.Lisbon is one of the oldest cities in the world, and the oldest city in Western Europe, predating other modern European capitals such as London, Paris and Rome by hundreds of years. Julius Caesar made it a municipium called Felicitas Julia, adding to the name Olissipo. Ruled by a series of Germanic tribes from the 5th century, it was captured by the Moors in the 8th century. In 1147, the Crusaders under Afonso Henriques reconquered the city and since then it has been a major political, economic and cultural centre of Portugal. Unlike most capital cities, Lisbon's status as the capital of Portugal has never been granted or confirmed officially – by statute or in written form. Its position as the capital has formed through constitutional convention, making its position as de facto capital a part of the Constitution of Portugal.Lisbon hosts two agencies of the European Union: the European Monitoring Centre for Drugs and Drug Addiction (EMCDDA) and the European Maritime Safety Agency (EMSA). Called the "Capital of the Lusophone world", the Community of Portuguese Language Countries has its headquarters in the city, in the Palace of the Counts of Penafiel.Lisbon has two sites listed by UNESCO as a World Heritage Site: Belém Tower and Jerónimos Monastery. Furthermore, in 1994, Lisbon was the European Capital of Culture and in 1998 organised the Expo '98 (1998 Lisbon World Exposition).Lisbon enjoys a Mediterranean climate. Among all the metropolises in Europe, it has the warmest winters, with average temperatures 15 °C (59 °F) during the day and 8 °C (46 °F) at night from December to February. The typical summer season lasts about six months, from May to October, although also in November, March and April temperatures sometimes reach around 25 °C (77.0 °F).
+
+
+"
+: []
+  },
+
+  {
+    "name": "Isla Mujeres",
+    "country": "Mexico",
+    "subtitle": "\" For beach lovers"",  "picture":"http://upload.wikimedia.org/wikipedia/commons/3/3f/Mexico-12-06-07_057.jpg",
+    "price": 1450,
+    "tags": [],
+    "pos": {
+      "lat": 21.2,
+      "lon": -86.716667,
+    },
+"text": "Isla Mujeres offers a wide variety of tempting options for beach lovers, and is a relative bargain. Snorkel with tropical fish amid coral reefs, skim the blue waters by kayak or boat, or windsurf along the shores of soft, sandy beaches. On land, you can sunbathe, dine on seafood, dance to Latin rhythms, tour on a moped or belly up to the bar for fresh, delicious drinks"
+: []
+  },
+
+  {
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "subtitle": "\" Paris of South Amerique"\",  "picture":"http://upload.wikimedia.org/wikipedia/commons/d/d9/Buenos_Aires_Puerto_Madero_19.jpg?uselang=fr",
+    "price": 1730,
+    "tags": [],
+    "pos": {
+      "lat": -34.6033333333,
+      "lon": -58.3816666667,
+    },
+"text": "Buenos Aires is the capital and largest city of Argentina, and the second-largest metropolitan area in South America, after Greater São Paulo. It is located on the western shore of the estuary of the Río de la Plata, on the continent's southeastern coast. The Greater Buenos Aires conurbation, which also includes several Buenos Aires Province districts, constitutes the third-largest conurbation in Latin America, with a population of around fifteen and a half million.The city of Buenos Aires is neither part of Buenos Aires Province nor the Province's capital; rather, it is an autonomous district. In 1880, after decades of political infighting, Buenos Aires was federalised and removed from Buenos Aires Province. The city limits were enlarged to include the towns of Belgrano and Flores; both are now neighborhoods of the city. The 1994 constitutional amendment granted the city autonomy, hence its formal name: Ciudad Autónoma de Buenos Aires (Autonomous City of Buenos Aires). Its citizens first elected a Chief of Government (i.e. Mayor) in 1996; before, the Mayor was directly appointed by the President of the Republic.Buenos Aires is one of the 20 largest cities in the world. It is, along with Mexico City and São Paulo, one of the three Latin American cities considered an 'alpha city' by the study GaWC5. Argentina has the third best quality of life in Latin America. Buenos Aires' quality of life is ranked 81st in the world, with its per capita income among the three highest in the region. It is the most visited city in South America (ahead of Rio de Janeiro) and the second most visited city across Latin America (behind Mexico City). It is also one of the most important, largest and most populous of South American capitals, often referred to as the Paris of South America.Buenos Aires is a top tourist destination, and is known for its European-style architecture and rich cultural life, with the highest concentration of theatres in the world.. In 1939, Buenos Aires along with Montevideo was the theater of the first major naval battle in the Second World War. Buenos Aires held the 1st Pan American Games in 1951 and the city also had two venues in the 1978 FIFA World Cup. Buenos Aires will host the 2018 Summer Youth Olympics.People from Buenos Aires are referred to as porteños (people of the port). The city is the birthplace of the current pope, Francis (former Archbishop of Buenos Aires), and Queen Máxima of the Netherlands.
+"
+: []
+  },
+
+
+  {
+    "name": "Cairo",
+    "country": "Egypt",
+    "subtitle": "\" the city of a thousand minarets"\",  "picture":"http://upload.wikimedia.org/wikipedia/commons/c/c5/PyramidsofGiza_at_night.jpg",
+    "price": 530,
+    "tags": [],
+    "pos": {
+      "lat": 30.05,
+      "lon": 31.25,
+    },
+"text": "Cairo is the capital of Egypt and the largest city in the Middle-East and Africa. Its metropolitan area is the 16th largest in the world. Located near the Nile Delta, it was founded in CE 969. Nicknamed "the city of a thousand minarets" for its preponderance of Islamic architecture, Cairo has long been a center of the region's political and cultural life. Cairo was founded by the Fatimid dynasty in the 10th century CE, but the land composing the present-day city was the site of national capitals whose remnants remain visible in parts of Old Cairo. Cairo is also associated with Ancient Egypt as it is close to the ancient cities of Memphis, Giza and Fustat which are near the Great Sphinx and the pyramids of Giza.Egyptians today often refer to Cairo as Maṣr ([mɑsˤɾ], مصر), the Egyptian Arabic pronunciation of the name for Egypt itself, emphasizing the city's continued role in Egyptian influence. Its official name is القاهرة al-Qāhirah , means literally "the Vanquisher" or "the Conqueror"; Egyptian Arabic pronunciation: [elqɑ(ː)ˈheɾɑ], sometimes it is informally also referred to as كايرو Kayro [ˈkæjɾo]. It is also called Umm al-Dunya, meaning "the mother of the world".Cairo has the oldest and largest film and music industries in the Arab world, as well as the world's second-oldest institution of higher learning, al-Azhar University. Many international media, businesses, and organizations have regional headquarters in the city; the Arab League has had its headquarters in Cairo for most of its existence.With a population of 6.76 million spread over 453 square kilometers (175 sq mi), Cairo is by far the largest city in Egypt. With an additional 10 million inhabitants just outside the city, Cairo resides at the center of the largest metropolitan area in Africa and the Arab World as well as the tenth-largest urban area in the world.[citation needed] Cairo, like many other mega-cities, suffers from high levels of pollution and traffic. Cairo's metro—one of only two metros on the African continent (the other the Algiers Metro)—ranks among the fifteen busiest in the world, with over 1 billion annual passenger rides. The economy of Cairo was ranked first in the Middle East and 43rd globally by Foreign Policy's 2010 Global Cities Index.
+
+"
+: []
+  },
+
+
+
+  {
+    "name": "Punta Cana",
+    "country": "Dominican Republic",
+    "subtitle": "\" costa del coco!"\",  "picture":"http://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Punta_Cana.jpg/1280px-Punta_Cana.jpg",
+    "price": 830,
+    "tags": [],
+    "pos": {
+      "lat": 18.5333333333,
+      "lon": -68.3666666667,
+    },
+"text": "Among the best golf destinations in the world, Punta Cana is the very picture of leisure. Several of the courses have been designed by professional golfers, making for the perfect sort of kicked-back challenge that you want on a golfing vacation. The beaches here are simply perfect: calm, warm waters that gently lap at stretches of fine white sand. Thrill yourself with a zip-line adventure, clap along with traditional Dominican music at a cultural performance, or explore the magical lagoons of the Indigenous Eyes Ecological Park."
+: []
+  },
+
+
+  {
+    "name": "Punta Cana",
+    "country": "Dominican Republic",
+    "subtitle": "\" costa del coco!"\",  "picture":"http://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Punta_Cana.jpg/1280px-Punta_Cana.jpg",
+    "price": 830,
+    "tags": [],
+    "pos": {
+      "lat": 18.5333333333,
+      "lon": -68.3666666667,
+    },
+"text": "Among the best golf destinations in the world, Punta Cana is the very picture of leisure. Several of the courses have been designed by professional golfers, making for the perfect sort of kicked-back challenge that you want on a golfing vacation. The beaches here are simply perfect: calm, warm waters that gently lap at stretches of fine white sand. Thrill yourself with a zip-line adventure, clap along with traditional Dominican music at a cultural performance, or explore the magical lagoons of the Indigenous Eyes Ecological Park."
+: []
+  },
+
+
+  {
+    "name": "Suzhou",
+    "country": "China",
+    "subtitle": "\"Oriental Venice"\",  "picture":"http://upload.wikimedia.org/wikipedia/commons/9/96/Ke_Garden_in_Suzhou_2012-03.JPG",
+    "price": 980,
+    "tags": [],
+    "pos": {
+      "lat": 31.2977777778,
+      "lon": 120.585,
+    },
+"text": "Suzhou is a major city on the lower Yangtze known for its canals, bridges, pagodas, and beautiful gardens.  These gardens were built and owned by wealthy families and emperors hundreds of years ago, and make for a pleasant place to wander during nice weather. Suzhou is also a major center for silk production and manufacturing, and a tour of a silk factory here provides an interesting and educational glimpse of this Chinese textile industry. Suzhou is designated a UNESCO World Heritage Site."
+: []
+  },
+
+
+ {
+    "name": "Djerba",
+    "country": "Tunisia",
+    "subtitle": "\"City that has inspired  to Homer's Odyssey"\",  "picture":"http://upload.wikimedia.org/wikipedia/commons/b/bc/Houmt_Souk-plates_and_tagines-katinalynn.jpg",
+    "price": 380,
+    "tags": [],
+    "pos": {
+      "lat": 33.8011111111,
+      "lon": 10.8830555556,
+    },
+"text": "A large island, approximately 20 by 20 kilometers, Djerba lies just off the northeastern coast of Africa, in southeastern Tunisia, near the Libyan border. Set on the Gulf of Gabes, the island is known for an eclectic population of residents and tourists, splendid beaches and picturesque villages that feature distinctive, square, whitewashed houses. Houmt Souq is the one large town, with bustling markets and lively outdoor cafes. Djerba, which offers a pirate's castle and fortress-like mosques, is believed to have been the inspiration for Homer's Odyssey. Accessible from the south of Tunisia, a road originally built by the Romans connects the island to the mainland."
+: []
+  },
+
+
+ {
+    "name": "Capital of Moghol’s empire",
+    "country": "India",
+    "subtitle": "\"City that has inspired  to Homer's Odyssey"\",  "picture":"http://upload.wikimedia.org/wikipedia/commons/d/d1/Agra0596b.jpg",
+    "price": 1130,
+    "tags": [],
+    "pos": {
+      "lat": 27.183333,
+      "lon": 78.016667,
+    },
+"text": "Agra, the former capital of Hindustan, is a city on the banks of the river Yamuna in the northern state of Uttar Pradesh, India. It is 363 kilometres (226 mi) west of the state capital, Lucknow, and 200 kilometres (124 mi) south of the national capital New Delhi. With a population of 1,686,976 (2010 est.), it is one of the most populous cities in Uttar Pradesh and the 19th most populous in India. Agra can also refer to the administrative district that has its headquarters in Agra city. It is a major tourist destination because of its many splendid Mughal-era buildings, most notably the Tāj Mahal, Agra Fort and Fatehpūr Sikrī, all three of which are UNESCO World Heritage Sites. Agra is included on the Golden Triangle tourist circuit, along with Delhi and Jaipur.The city is mentioned in the epic Mahābhārata, where it was called Agrevaṇa. Legend ascribes the founding of the city to Raja Badal Singh, a Sikarwar Rajput king (c. 1475), whose fort, Badalgarh, stood on or near the site of the present fort. However, the 11th century Persian poet Mas'ūd Sa'd Salmān writes of a desperate assault on the fortress of Agra, then held by the Shāhī King Jayapala, by Sultan Mahmud of Ghazni. Sultan Sikandar Lodī was the first to move his capital from Delhi to Agra in 1506. He died in 1517 and his son, Ibrāhīm Lodī, remained in power there for nine more years, finally being defeated at the Battle of Panipat in 1526. Between 1540 and 1556, Afghans, beginning with Sher Shah Suri ruled the area. It achieved fame as the capital of the Mughal Empire from 1556 to 1658.
+"
+: []
+  },
+
+
+{
+    "name": "Bucarest",
+    "country": "Romania",
+    "subtitle": "\"Paris of the East"\",  "picture":"http://upload.wikimedia.org/wikipedia/commons/5/53/Biserica_%22Maicii_Domnului%2C_Sfintii_Mucenici_Ciprian_si_Iustina%22%2C_Zlatari%2C_Calea_Victoriei%2C_Bucuresti_sect._3%2C_%28interior_2%29.JPG",
+    "price": 430,
+    "tags": [],
+    "pos": {
+      "lat": 44.4333333,
+      "lon": 26.1,
+    },
+"text": "Bucharest is the capital municipality, cultural, industrial, and financial centre of Romania. It is the largest city in Romania, located in the southeast of the country, at 44°25′57″N 26°06′14″E, lies on the banks of the Dâmbovița River, less than 70 kilometres (43 mi) north of the Danube River.Bucharest was first mentioned in documents in 1459. It became the capital of Romania in 1862 and is the centre of Romanian media, culture and art. Its architecture is a mix of historical (neo-classical), interbellum (Bauhaus and Art Deco), Communist-era and modern. In the period between the two World Wars, the city's elegant architecture and the sophistication of its elite earned Bucharest the nickname of "Little Paris" (Micul Paris). Although buildings and districts in the historic city centre were heavily damaged or destroyed by war, earthquakes, and above all Nicolae Ceauşescu's program of systematization, many survived. In recent years, the city has been experiencing an economic and cultural boom.According to 2011 census, 1,883,425 inhabitants live within the city limits, a decrease from the figure recorded at the 2002 census. The urban area extends beyond the limits of Bucharest proper and has a population of about 1.9 million people. Adding the satellite towns around the urban area, the proposed metropolitan area of Bucharest would have a population of 2.27 million people. According to Eurostat, Bucharest has a Larger Urban Zone of 2,151,880 residents. According to unofficial data, the population is more than 3 million. Bucharest is the 6th largest city in the European Union by population within city limits, after London, Berlin, Madrid, Rome, and Paris.Economically, Bucharest is the most prosperous city in Romania and is one of the main industrial centres and transportation hubs of Eastern Europe. The city has big convention facilities, educational institutes, cultural venues, traditional "shopping arcades" and recreational areas.The city proper is administratively known as "The Municipality of Bucharest" (Municipiul București), and has the same administrative level as that of a national county, being further subdivided into six sectors."
+: []
+  },
+
+
+
+{
+    "name": "Siem Reap",
+    "country": "Cambodia",
+    "subtitle": "\"City of Angkor"\",  "picture":"http://upload.wikimedia.org/wikipedia/commons/2/28/Angkorthom_Victory_gate.JPG",
+    "price": 1430,
+    "tags": [],
+    "pos": {
+      "lat": 13.3622222222,
+      "lon": 103.859722222,
+    },
+"text": "Siem Reap is the capital city of Siem Reap Province in northwestern Cambodia, and a popular resort town as the gateway to Angkor region.Siem Reap has colonial and Chinese-style architecture in the Old French Quarter, and around the Old Market. In the city, there are museums, traditional Apsara dance performances, a Cambodian cultural village, souvenir and handycraft shops, silk farms, rice-paddies in the countryside, fishing villages and a bird sanctuary near the Tonle Sap Lake.Siem Reap today—being a popular tourist destination—has a large number of hotels, resorts, restaurants and businesses closely related to tourism. This is much owed to its proximity to the Angkor temples, the most popular tourist attraction in Cambodia."
+: []
+  },
+
+
+
+{
+    "name": "Jaipur",
+    "country": "India",
+    "subtitle": "\"The Pink City"\",  
+    "picture":"http://upload.wikimedia.org/wikipedia/commons/c/c2/Hawa_Mahal%2C_Jaipur%2C_Rajasthan%2C_India.jpg",
+    "price": 930,
+    "tags": [],
+    "pos": {
+      "lat": 13.3622222222,
+      "lon": 103.859722222,
+    },
+"text": "Jaipur is the capital and largest city of the Indian state of Rajasthan in Northern India. It was founded on 18 November 1727 by Maharaja Sawai Jai Singh II, the ruler of Amber, after whom the city has been named. The city today has a population of 3.1 million. Jaipur is known as the Pink City of India.The city is unusual among pre-modern Indian cities in the regularity of its streets, and the division of the city into six sectors by broad streets 34 m (111 ft) wide. The urban quarters are further divided by networks of gridded streets. Five quarters wrap around the east, south, and west sides of a central palace quarter, with a sixth quarter immediately to the east. The Palace quarter encloses the Hawa Mahal palace complex, formal gardens, and a small lake. Nahargarh Fort, which was the residence of the King Sawai Jai Singh II, crowns the hill in the northwest corner of the old city. The observatory, Jantar Mantar, is one of the World Heritage Sites. Included on the Golden Triangle tourist circuit, along with Delhi and Agra, Jaipur is an extremely popular tourist destination in Rajasthan and India."
+: []
+  },
+
+
+
+{
+    "name": "Honolulu",
+    "country": "Hawaii",
+    "subtitle": "\"The Big Pineapple"\",  
+    "picture":"//c2.staticflickr.com/8/7393/9287340800_2dc6c3a066_h.jpg",
+    "price": 1530,
+    "tags": [],
+    "pos": {
+      "lat": 21.3069444,
+      "lon": -157.8583333,
+    },
+"text": "Honolulu is the state capital and the most populous city in the U.S. state of Hawaii. It is the county seat of the City and County of Honolulu. Hawaii is a major tourist destination and Honolulu, situated on the island of Oahu, is the main gateway to Hawaii and a major gateway into the United States. The city is also a major hub for international business, military defense, as well as famously being host to a diverse variety of east-west and Pacific culture, cuisine, and traditions.Honolulu is both the westernmost and the southernmost major American city. For statistical purposes, the U.S. Census Bureau recognizes the approximate area commonly referred to as "City of Honolulu" (not to be confused with the "City and County") as a census county division (CCD). Honolulu is a major financial center of the islands and of the Pacific Ocean. The population of Honolulu CCD was 390,738 at the 2010 census, while the population of the consolidated city and county was 953,207.In the Hawaiian language, Honolulu means "sheltered bay" or "place of shelter"[citation needed]; alternatively, it means "calm port". The old name is said to be Kou, a district roughly encompassing the area from Nuuanu Avenue to Alakea Street and from Hotel Street to Queen Street which is the heart of the present downtown district. The city has been the capital of the Hawaiian islands since 1845 and gained historical recognition following the Japanese attack on Pearl Harbor near the city on December 7, 1941."
+: []
+  },
+
+
+{
+    "name": "Manama",
+    "country": "Bahrain",
+    "subtitle": "\"the capital of Bahrain"\",  
+    "picture":"//c2.staticflickr.com/4/3001/3044028339_6549493788_b.jpg",
+    "price": 830,
+    "tags": [],
+    "pos": {
+      "lat": 26.2361111,
+      "lon": 50.5830556,
+    },
+"text": "Manama, capital of the island nation of Bahrain, is a major financial center with a thriving economy. A surplus of money has decorated the skyline with glass and steel spires, and plans for the tallest tower in the world. Although Bahrain is an Islamic country, alcohol is legal, and Manama has a thriving nightlife, with clubs and bars popular with visitors from all over the world. The narrow rows of stalls at the Bab el-Bahrain souk are famous for their vast array of perfumes, spices, and gold."
+: []
+  },
+
+
+{
+    "name": "Hanoi",
+    "country": "Vietnam",
+    "subtitle": "\"The pearl of Asia"\",  
+    "picture":"//c1.staticflickr.com/3/2464/3643668164_558c5b8151_b.jpg",
+    "price": 1130,
+    "tags": [],
+    "pos": {
+      "lat": 21.0333333,
+      "lon": 105.85,
+    },
+"text": "The charming Vietnamese capital has aged well, preserving the Old Quarter, monuments and colonial architecture, while making room for modern developments alongside. Hanoi may have shrugged off several former names, including Thang Long, or "ascending dragon," but it hasn't forgotten its past, as sites such as Ho Chi Minh's Mausoleum and Hoa Lo Prison attest. Lakes, parks, shady boulevards and more than 600 temples and pagodas add to the appeal of this city, which is easily explored by taxi."
+: []
+  },
+
+
+
+{
+    "name": "Nice",
+    "country": "France",
+    "subtitle": "\"French Riviera Capital "\",  
+    "picture":"//c1.staticflickr.com/9/8837/17630242941_eb79c981e5_k.jpg",
+    "price": 130,
+    "tags": [],
+    "pos": {
+      "lat": 43.7,
+      "lon": 7.25,
+    },
+"text": "Nice is the fifth most populous city in France, after Paris, Marseille, Lyon and Toulouse, and it is the capital of the Alpes Maritimes département. The urban area of Nice extends beyond the administrative city limits with a population of about 1 million on an area of 721 km2 (278 sq mi). Located on the south east coast of France on the Mediterranean Sea, Nice is the second-largest French city on the Mediterranean coast and the second-largest city in the Provence-Alpes-Côte d'Azur region after Marseille.The city is called Nice la Belle (Nissa La Bella in Niçard), which means Nice the Beautiful, which is also the title of the unofficial anthem of Nice, written by Menica Rondelly in 1912.The area of today's Nice contains Terra Amata, an archaeological site which displays evidence of a very early use of fire. Around 350 BC, Greeks of Marseille founded a permanent settlement and called it Nikaia, after Nike, the goddess of victory. Through the ages, the town has changed hands many times. Its strategic location and port significantly contributed to its maritime strength. For years it was a dominion of Savoy, then became part of France between 1792 and 1815, when it was returned to Piedmont-Sardinia until its reannexation by France in 1860.The natural beauty of the Nice area and its mild Mediterranean climate came to the attention of the English upper classes in the second half of the 18th century, when an increasing number of aristocratic families took to spending their winter there. The city's main seaside promenade, the Promenade des Anglais (‘the Walkway of the English') owes its name to the earliest visitors to the resort.For decades now, the picturesque Nicean surroundings have attracted not only those in search of relaxation, but also those seeking inspiration. The clear air and soft light has been of particular appeal to some of Western culture's most outstanding painters, such as Marc Chagall, Henri Matisse, Niki de Saint Phalle and Arman. Their work is commemorated in many of the city's museums, including Musée Marc Chagall, Musée Matisse and Musée des Beaux-Arts.Nice has the second largest hotel capacity in the country and it is one of its most visited cities, receiving 4 million tourists every year. It also has the third busiest airport in France after the two main Parisian ones. It is the historical capital city of the County of Nice (Comté de Nice)."
+: []
+  },
+
+
+{
+    "name": "Zürich",
+    "country": "Switzerland",
+    "subtitle": "\"the economic capital"\",  
+    "picture":"//c2.staticflickr.com/2/1418/5161081734_008e1bcab5_b.jpg",
+    "price": 340,
+    "tags": [],
+    "pos": {
+      "lat": 47.3666667,
+      "lon": 8.55,
+    },
+"text": "Zürich is the largest city in Switzerland and the capital of the canton of Zürich. It is located in north-central Switzerland at the northwestern tip of Lake Zürich. The municipality has approximately 400,028 inhabitants, and the Zurich metropolitan area 1.83 million. Zürich is a hub for railways, roads, and air traffic. Both Zürich Airport and railway station are the largest and busiest in the country.Permanently settled for around 2000 years, the history of Zürich goes back to its founding by the Romans, who, in 15 BC, called it Turicum. However, early settlements have been found dating back more than 6400 years ago. During the Middle Ages Zürich gained the independent and privileged status of imperial immediacy and, in 1519, became a primary centre of the Protestant Reformation in Europe under the leadership of Ulrich Zwingli.Zürich is a leading global city and among the world's largest financial centres. The city is home to a large number of financial institutions and banking giants. Most of Switzerland's research and development centres are concentrated in Zürich and the low tax rates attract overseas companies to set up their headquarters there.Monocle's 2012 "Quality of Life Survey" ranked Zürich first on a list of the top 25 cities in the world "to make a base within".According to several surveys from 2006 to 2008, Zürich was named the city with the best quality of life in the world as well as the wealthiest city in Europe.Many museums and art galleries can be found in the city, including the Swiss National Museum and the Kunsthaus. Zürich also hosts one of the most important theatres in the German-speaking world."
+: []
+  },
+
+
+{
+    "name": "Jakarta",
+    "country": "Indonesia",
+    "subtitle": "\"the city of contrasts"\",  
+    "picture":"//c2.staticflickr.com/8/7557/15986759651_e2d70a1945_k.jpg",
+    "price": 1240,
+    "tags": [],
+    "pos": {
+      "lat": -6.1744444,
+      "lon": 106.8294444,
+    },
+"text": "Chaotic, crowded, and cosmopolitan, Jakarta, the capital of Indonesia, is a city of contrasts. Home to millions of people from around the world, the city is a mixture of languages and cultures, poverty and wealth. The city boasts some of the best nightlife in Asia and some of the worst traffic. Every holiday, the locals escape the pollution and the crowds to enjoy relaxing diversions like Ancol Dreamland, an amusement area featuring water parks, beaches, golf courses, and a SeaWorld."
+: []
+  },
+
+
+{
+    "name": "Chiang Mai ",
+    "country": "Thailand",
+    "subtitle": "\"Rose of the North\",  
+    "picture":"//c2.staticflickr.com/4/3846/14694278781_9d2d2a7514_h.jpg",
+    "price": 970,
+    "tags": [],
+    "pos": {
+      "lat": 18.7952777778,
+      "lon": 98.9986111111,
+    },
+"text": "Chiang Mai sometimes written as "Chiengmai" or "Chiangmai", is the largest and most culturally significant city in northern Thailand. It is the capital of Chiang Mai Province, a former capital of the Kingdom of Lanna (1296–1768) and was the tributary Kingdom of Chiang Mai from 1774 until 1939. It is located 700 km (435 mi) north of Bangkok, among the highest mountains in the country. The city is along the Ping River, a major tributary of the Chao Phraya River. Chiang Mai means "new city" and was so-named because it was the new capital, founded in 1296, succeeding Chiang Rai (founded 1262) in the capital of the Lanna kingdom.In recent years, Chiang Mai has become an increasingly modern city and has been attracting over 5 million visitors each year, of which between 1.4 million and 2 million are foreign tourists (depending on the year).Chiang Mai gained prominence in the political sphere in May 2006, when the Chiang Mai Initiative was concluded here between the ASEAN nations and the "+3" countries (China, Japan, and South Korea). Chiang Mai was one of three Thai cities contending for Thailand's bid to host the World Expo 2020 (the others were Chon Buri and Ayutthaya). However, Ayutthaya was the city chosen by the Thai Parliament to register for the international competition.It has also recently positioned itself to become a Creative City, and is considering applying for Creative City Status with UNESCO. Chiang Mai is one of two tourist destinations in Thailand on TripAdvisor's list of "25 Best Destinations in the World", where it stands in place 24.Chiang Mai's historic importance is derived from its close proximity to the Ping River and major trading routes.While officially the city (thesaban nakhon) of Chiang Mai only covers most parts of the Mueang Chiang Mai district with a population of 160,000, the urban sprawl of the city now extends into several neighboring districts. This Chiang Mai Metropolitan Area has a population of nearly one million people, more than half the total of Chiang Mai Province.The city is subdivided into four wards (khwaeng): Nakhon Ping, Srivijaya, Mengrai, and Kawila. The first three are on the west bank of the Ping River, and Kawila is located on the east bank. Nakhon Ping district comprises the north side of the city. Srivijaya, Mengrai, and Kawila consist of the west, south, and east respectively. The city center—within the city walls—is mostly within Srivijaya ward.
+"
+: []
+  },
+
+
+
+{
+    "name": "Agadiri ",
+    "country": "Morocco",
+    "subtitle": "\"la Ville de La Baie\",  
+    "picture":"//c1.staticflickr.com/5/4103/4847583824_b37003eb84_b.jpg",
+    "price": 470,
+    "tags": [],
+    "pos": {
+      "lat": 30.4,
+      "lon": -9.6,
+    },
+"text": "Agadir is a major city in central coastal Morocco, the capital of Agadir-Ida Ou Tanane province  and of the Souss-Massa-Drâa economic region some 508 km to the south of Casablanca, 173 km from Essaouira and 235 km to the west of Marrakech A majority of its inhabitants speak Berber as their mother tongue.The city is located on the shore of the Atlantic Ocean, near the foot of the Atlas Mountains, just north of the point where the Sous River flows into the ocean.
+
+"
+: []
+  },
+
+
+{
+    "name": "Sharm El Sheikh",
+    "country": "Egypt",
+    "subtitle": "\"City of Peace'\",  
+    "picture":"//c2.staticflickr.com/4/3243/2954278477_ee9a697762_b.jpg",
+    "price": 490,
+    "tags": [],
+    "pos": {
+      "lat": 27.9122222222,
+      "lon": 34.3297222222,
+    },
+"text": "Diverse marine life and hundreds of Red Sea coral reef sites make Sharm El Sheikh a magnet for divers and eco-tourists. The tourist economy of this Sinai Peninsula city has grown quite rapidly over the last few decades, resulting in an upcrop of first-class resorts and posh nightlife. The waters of Ras Mohamed National Park are abundant with schools of fish and, oddly, toilets – thanks to the bathroom fixtures being transported by a cargo ship that sank during a 1981 storm."
+: []
+  },
+
+
+{
+    "name": "Frankfurt",
+    "country": “Germany",
+    "subtitle": "\"Germany’s financial capital'\",  
+    "picture":"//c2.staticflickr.com/8/7324/12010562175_ac8cccb076_h.jpg",
+    "price": 490,
+    "tags": [],
+    "pos": {
+      "lat": 50.1166667,
+      "lon": 8.6833333,
+    },
+"text": "Frankfurt am Main, commonly known as Frankfurt, is the largest city in the German state of Hesse and the fifth-largest city in Germany, with a population of 687,775 (2012) within its administrative boundaries. The actual urban area has a population of 2,500,000. The city is at the centre of the larger Frankfurt Rhine-Main Metropolitan Region which has a population of 5,600,000 and is Germany's second-largest metropolitan region. Since the enlargement of the European Union in 2013, the geographic centre of the EU is about 40 km (25 mi) east of Frankfurt.Frankfurt is the largest financial centre in continental Europe and ranks among the world's leading financial centres. It is home to the European Central Bank, Deutsche Bundesbank, Frankfurt Stock Exchange and several large commercial banks. The European Central Bank is the central bank of the eurozone, consisting of 18 EU member states that have adopted the euro (€) as their common currency and sole legal tender. The Deutsche Bundesbank is the central bank of Germany and as such part of the European System of Central Banks. The Frankfurt Stock Exchange is one of the world's largest stock exchanges by market capitalization and accounts for over 90 percent of the turnover in the German market. In 2010, 63 national and 152 international banks had their registered offices in Frankfurt, including the headquarters of the major German banks, notably Deutsche Bank, Commerzbank, DZ Bank and KfW, as well as 41 representative offices of international banks.Frankfurt is therefore considered a global city (alpha world city) as listed by the Loughborough University group's 2010 inventory. Among global cities it was ranked 10th by the Global Power City Index 2011 and 11th by the Global City Competitiveness Index 2012. Among financial centers it was ranked 8th by the International Financial Centers Development Index 2013 and 9th by the Global Financial Centres Index 2013.Due to its central location within Germany and Europe, Frankfurt is a major air, rail and highway transport hub. Frankfurt Airport is one of the world's busiest international airports by passenger traffic and the main hub for Germany's flag carrier Lufthansa, the largest airline in Europe. Frankfurt Central Station is one of the largest terminal stations in Europe and the busiest junction operated by Deutsche Bahn, the German national railway company, with 342 daily trains to domestic and European destinations. Frankfurter Kreuz, the Autobahn interchange close to the airport, is the most heavily used interchange in the EU with approximately 320,000 cars daily.Frankfurt is also a centre for commerce, culture, education, tourism and web traffic. Messe Frankfurt is one of the world's largest trade fairs at 578,000 square metres and ten exhibition halls, a central logistics centre and an attached convention centre. Major trade fairs include the Frankfurt Motor Show, the world's largest motor show, and the Frankfurt Book Fair, the world's largest book fair. Frankfurt is also home to many cultural and educational institutions including the Johann Wolfgang Goethe University and Frankfurt University of Applied Sciences, many museums (e.g. Städel, Naturmuseum Senckenberg, Schirn Kunsthalle Frankfurt, Goethe House), and two major botanical gardens, the Palmengarten, which is Germany's largest, and the Botanical Garden of the Goethe University.In 2011, the human-resource-consulting firm Mercer ranked Frankfurt as seventh in its annual "Quality of Living" survey of cities around the world. According to The Economist cost of living survey, Frankfurt is Germany's most expensive city, and the 10th most expensive in the world.A unique feature of Frankfurt is its significant number of skyscrapers and high-rise buildings in the city center which form the Frankfurt skyline. Frankfurt is one of only a few cities in the European Union that have such a skyline, the others being London, Milan, Warsaw, Madrid, Rotterdam and La Défense in the outer Paris region. Because of the city's skyline, Germans sometimes refer to Frankfurt as "Mainhattan", a portmanteau of the local Main River and Manhattan."
+: []
+  },
+
+
+{
+    "name": "Abu Dhabi",
+    "country": “United Arab Emirates",
+    "subtitle": "\"The Las Vegas of the Middle East'\",  
+    "picture":"//c2.staticflickr.com/6/5241/5234043466_219ebb1b35_b.jpg",
+    "price": 890,
+    "tags": [],
+    "pos": {
+      "lat": 24.4666667,
+      "lon": 54.3666667,
+    },
+"text": "
+
+
+
+
+Abu Dhabi is a capital of the largest of the UAE's seven member emirates. Abu Dhabi lies on a T-shaped island jutting into the Persian Gulf from the central western coast. The city proper had a population of 921,000 in 2013.Abu Dhabi houses federal government offices, is the seat of the United Arab Emirates Government, home to the Abu Dhabi Emiri Family and the President of the UAE, who is from this family. Abu Dhabi has grown to be a cosmopolitan metropolis. Its rapid development and urbanisation, coupled with the relatively high average income of its population, has transformed Abu Dhabi to a larger and advanced metropolis. Today the city is the country's center of political and industrial activities, and a major cultural and commercial centre, due to its position as the capital. Abu Dhabi alone generated 56.7% of the GDP of the United Arab Emirates in 2008.Abu Dhabi is home to important financial institutions such as the Abu Dhabi Securities Exchange, the Central Bank of the United Arab Emirates and the corporate headquarters of many companies and numerous multinational corporations. One of the world's largest producers of oil, Abu Dhabi has actively attempted to diversify its economy in recent years through investments in financial services and tourism.Abu Dhabi is the second most expensive city for expatriate employees in the region, and 67th most expensive city in the world. Fortune magazine and CNN stated in 2007 that Abu Dhabi is the richest city in the world.
+
+
+
+
+
+
+"
+: []
+  },
+
+
+{
+    "name": "Vancouver",
+    "country": “Canada",
+    "subtitle": "\"Hollywood North'\",  
+    "picture":"//c2.staticflickr.com/2/1359/4733576208_f51354dd23_b.jpg",
+    "price": 990,
+    "tags": [],
+    "pos": {
+      "lat": 49.25,
+      "lon": -123.133333
+    },
+"text": "Vancouver is a coastal seaport city on the mainland of British Columbia, Canada.The 2011 census recorded 603,502 people in the city, making it the eighth largest Canadian municipality.Vancouver is one of the most ethnically and linguistically diverse cities in Canada; 52% of its residents have a first language other than English.The Greater Vancouver area of around 2.4 million inhabitants is the third most populous metropolitan area in the country and the most populous in Western Canada.The City of Vancouver encompasses a land area of about 114 square kilometres, giving it a population density of about 5,249 people per square kilometre (13,590 per square mile). Vancouver is the most densely populated Canadian municipality, and the fourth most densely populated city over 250,000 residents in North America, behind New York City, San Francisco,and Mexico City.The original settlement, named Gastown, grew around the Hastings Mill logging sawmill and a nearby tavern, both established in 1867. Enlarging to become the townsite of Granville, with the announcement that the railhead would reach the site it was renamed "Vancouver" and incorporated as a city in 1886. By 1887, the transcontinental railway was extended to the city to take advantage of its large natural seaport, which soon became a vital link in a trade route between the Orient, Eastern Canada, and London.As of 2009, Port Metro Vancouver is the busiest and largest port in Canada, and the most diversified port in North America.While forestry remains its largest industry, Vancouver is well known as an urban centre surrounded by nature, making tourism its second-largest industry.Major film production studios in Vancouver and Burnaby have turned Metro Vancouver into one of the largest film production centres in North America,earning it the film industry nickname, Hollywood North.Vancouver is consistently named as one of the top five worldwide cities for livability and quality of life,and the Economist Intelligence Unit acknowledged it as the first city to rank among the top-ten of the world's most livable citiesfor five consecutive years.Vancouver has hosted many international conferences and events, including the 1954 British Empire and Commonwealth Games, UN Habitat I, Expo 86, and the World Police and Fire Games in 1989 and 2009. In 2014, following thirty years in California, Vancouver became the indefinite home of the annual TED conference.Canada will host the 2015 FIFA Women's World Cup, and several matches will be played in Vancouver, including the final at BC Place Stadium.The 2010 Winter Olympics and 2010 Winter Paralympics were held in Vancouver and nearby Whistler, a resort community 125 km (78 mi) north of the city.
+"
+: []
+  },
+
+
+{
+    "name": "Xian de Yangshuo",
+    "country": “China",
+    "subtitle": "\"The new Yang’s moon'\",  
+    "picture":"//c1.staticflickr.com/5/4029/4428370871_736f0e36b1_b.jpg",
+    "price": 980,
+    "tags": [],
+    "pos": {
+      "lat": 25.2833333,
+      "lon": 110.2833333,
+    },
+"text": "Yangshuo County is a county under the jurisdiction of Guilin City, in the northeast of Guangxi, China. Its seat is located in Yangshuo Town. Surrounded by karst peaks and bordered on one side by the Li River it is easily accessible by bus or by boat from nearby Guilin. In the 1980s, the town became popular with foreign backpackers, and by the late 1990s packaged tourists began arriving in greater numbers. At that time, domestic tourism represented only a small fraction of the tourists but by 2005 domestic tourists outnumbered foreign tourists by a great margin. Today, the town has become a resort destination for both domestic and foreign travelers."
+: []
+  },
+
+
+{
+    "name": "Melbourne",
+    "country": “Australia",
+    "subtitle": "\"The Second City\",  
+    "picture":"//c1.staticflickr.com/1/110/294243529_842700c49b_b.jpg",
+    "price": 1480,
+    "tags": [],
+    "pos": {
+      "lat": -37.816667,
+      "lon": 144.966667,
+    },
+"text": "Melbourne is the capital and most populous city in the state of Victoria, and the second most populous city in Australia. The name "Melbourne" refers to an urban agglomeration area (and census statistical division) spanning 9,900 km2 (3,857.2 sq mi) that comprises the greater metropolis – as well as being a common name for its metropolitan hub, the Melbourne City Centre. It is a leading financial centre in Australia, as well as the Asia-Pacific region, and has been ranked the world's most livable city since 2011 (and among the top three since 2002), according the Economist Intelligence Unit (EIU). In 2013 the EIU also ranked Melbourne the fourth most expensive city in the world, tying with Oslo, Norway. Melbourne is rated highly in the areas of education, entertainment, healthcare, research and development, tourism and sports.It is located on the large natural bay of Port Phillip, with its City Centre situated at the northernmost point of the bay – near to the estuary of the Yarra River. The metropolitan area extends south from the City Centre, along the eastern and western shorelines of Port Phillip, and expands into the hinterlands – toward the Dandenong and Macedon mountain ranges, Mornington Peninsula and Yarra Valley. The City Centre is located in the municipality known as the City of Melbourne, and the metropolis consists of a further 30 municipalities. Melbourne has a population of 4.35 million, and the fastest growing population among Australian capital cities. Inhabitants of the city are called Melburnians.Founded on 30 August 1835 (in what was then the Colony of New South Wales), by settlers from Launceston in Van Diemen's Land, it was incorporated as a Crown settlement in 1837. It was named "Melbourne" by the Governor of New South Wales, Sir Richard Bourke, in honour of the British Prime Minister of the day, William Lamb, 2nd Viscount Melbourne. It was declared a city by Queen Victoria in 1847, before becoming the capital city of the newly created Colony of Victoria in 1851. During the Victorian gold rush of the 1850s, it was transformed into one of the world's largest and wealthiest cities. After the federation of Australia in 1901, Melbourne served as the interim seat of government for the newly created nation of Australia until 1927.An international centre for performing and visual arts, Melbourne is often referred to as Australia's cultural capital. It is the birthplace of Australian dance styles; the Melbourne Shuffle and New Vogue, the Australian film industry (including the world's first feature film), Australian impressionist art (known as the Heidelberg School), Australian rules football, and the Australian television industry. In more recent years, it has been recognised as a UNESCO City of Literature and a major centre for street art. It is home to many of Australia's largest and oldest cultural institutions such as the Australian Centre for the Moving Image, the Melbourne Cricket Ground, Melbourne Museum, Melbourne Zoo, the National Gallery of Victoria and the UNESCO World Heritage-listed Royal Exhibition Building.The main passenger airport serving the metropolis is Melbourne Airport, which is the second busiest in Australia, and the Port of Melbourne is Australia's busiest seaport for containerised and general cargo. The main metropolitan train terminus is Flinders Street Station, and the main regional train and coach terminus is Southern Cross Station. Melbourne is also home to the world's largest tram network.
+"
+: []
+  },
+
+
+{
+    "name": "Rio de Janeiro ",
+    "country": “Brazil",
+    "subtitle": "\"The Marvelous City\",  
+    "picture":"//c1.staticflickr.com/3/2524/3741029894_3003cd3ca8_b.jpg",
+    "price": 1280,
+    "tags": [],
+    "pos": {
+      "lat": -22.9,
+      "lon": -43.2333333,
+    },
+"text": "Rio de Janeiro is the capital city of the State of Rio de Janeiro, the second largest city of Brazil, and the third largest metropolitan area and agglomeration in South America. There are approximately 6.3 million people living within the city proper, making it the 6th largest in the Americas and 26th in the world. Part of the city has been designated as a World Heritage Site, named "Rio de Janeiro: Carioca Landscapes between the Mountain and the Sea", identified by UNESCO on 1 July 2012 in the category Cultural Landscape.Founded in 1565, by the Portuguese, the city was initially the seat of the Captaincy of Rio de Janeiro, a captaincy of the Portuguese Empire. It later, in 1793, became the capital of the State of Brazil, a State of the Portuguese Empire. In 1808, when the Portuguese Royal Court transferred itself from Portugal to Brazil, Rio de Janeiro became the chosen seat of the court of Queen Maria I of Portugal, who subsequently, in 1815, under the leadership of her son, the Prince Regent, and future King João VI of Portugal, raised Brazil to the dignity of a kingdom, within the United Kingdom of Portugal, Brazil, and Algarves. Rio stayed the capital of the pluricontinental Lusitanian monarchy until 1822, when the War of Brazilian Independence began. It subsequently served as the capital of the independent monarchy, the Empire of Brazil, until 1889, and then the capital of a republican Brazil until 1960.Rio de Janeiro represents the second largest GDP in the country (and 30th largest in the world in 2008), estimated at about R$343 billion (IBGE/2008) (nearly US$201 billion), and is headquarters to two of Brazil's major companies—Petrobras and Vale, and major oil companies and telephony in Brazil, besides the largest conglomerate of media and communications companies in Latin America, the Globo Organizations. The home of many universities and institutes, it is the second largest center of research and development in Brazil, accounting for 17% of national scientific production—according to 2005 data.Rio de Janeiro is one of the most visited cities in the southern hemisphere and is known for its natural settings, carnival celebrations, samba, Bossa Nova, balneario beaches such as Barra da Tijuca, Copacabana, Ipanema, and Leblon. Some of the most famous landmarks in addition to the beaches include the giant statue of Christ the Redeemer ("Cristo Redentor") atop Corcovado mountain, named one of the New Seven Wonders of the World; Sugarloaf mountain (Pão de Açúcar) with its cable car; the Sambódromo, a permanent grandstand-lined parade avenue which is used during Carnival; and Maracanã Stadium, one of the world's largest football stadiums.Rio de Janeiro will host 2016 Summer Olympics and the 2016 Summer Paralympics for first time a South American and Portuguese-speaking nation hosts the event. It will be the third time the Olympics will be held in a Southern Hemisphere city. On 12 August 2012, at the 2012 Summer Olympics closing ceremony, Mayor Eduardo Paes received the Olympic Flag, via Jacques Rogge, from London Mayor Boris Johnson. Rio's Maracanã Stadium, which held the final of the 1950 FIFA World Cup and 2013 FIFA Confederations Cup, will host the final match of the 2014 FIFA World Cup. Rio de Janeiro also hosted the World Youth Journey in 2013.
+
+"
+: []
+  },
+
+
+{
+    "name": "Riyadh ",
+    "country": “Saudi Arabial",
+    "subtitle": "\"The Gardens\",  
+    "picture":"//c2.staticflickr.com/8/7612/16768548626_e109775ad2_h.jpg",
+    "price": 840,
+    "tags": [],
+    "pos": {
+      "lat": -24.6408333,
+      "lon": 46.7727778,
+    },
+"text": "Riyadh is the capital and largest city of Saudi Arabia. It is also the capital of Riyadh Province, and belongs to the historical regions of Najd and Al-Yamama. It is situated in the center of the Arabian Peninsula on a large plateau, and is home to 5,254,560 people, and the urban center of a region with a population of close to 7 million people.The city is divided into 15 municipal districts, managed by Riyadh Municipality headed by the mayor of Riyadh, and the Riyadh Development Authority, chaired by the governor of Riyadh Province, Khalid bin Bandar Al Saud. The current mayor of Riyadh is Abdullah bin Abdul Rahman Al Mogbel, appointed in 2012. Riyadh has the largest all female university in the world, the Princess Nora bint Abdulrahman University. It has been designated as a Beta World City.
+
+
+"
+: []
+  },
+
+{
+    "name": "Amman",
+    "country": “Hashemite Kingdom of Jordan",
+    "subtitle": "\"the white city”\",  
+    "picture":"//c2.staticflickr.com/8/7709/17287400566_1225f0bfbe_k.jpg",
+    "price": 740,
+    "tags": [],
+    "pos": {
+      "lat": 31.9333333333,
+      "lon": 35.9333333333,
+    },
+"text": "Amman is the capital and most populous city of the Hashemite Kingdom of Jordan. It is the country's political, cultural and commercial centre and one of the oldest continuously inhabited cities in the world. The Greater Amman area has a population of 2,842,629 as of 2010. The recent economic growth experienced in Amman is unmatched by any other Arab city except those located in the Persian Gulf area. Amman is also the administrative seat of the homonymous governorate. Amman is also ranked a Beta− global city on the World city index.Amman was named one of the MENA's best cities according to economic, labour, environmental, and socio-cultural factors. Amman is among the most popular locations for multinational corporations to set up their regional offices, alongside Doha and only behind Dubai. Furthermore, it is expected that in the next 10 years these three cities will capture the largest share of multinational corporation activity in the region. It is a major tourist destination in the region and the capital is especially popular among Gulf tourists.
+
+
+
+"
+: []
+  },
+
+{
+    "name": "Sousse ",
+    "country": “Tunisia",
+    "subtitle": "\"The pearl of the sahel”\",  
+    "picture":"//c1.staticflickr.com/9/8425/7846771552_dd41625258_k.jpg",
+    "price": 410,
+    "tags": [],
+    "pos": {
+      "lat": 35.8333333333,
+      "lon": 10.6333333333,
+    },
+"text": "Sousse or Sousa is a city in Tunisia, capital of the Sousse Governorate. Located 140 kilometres (87 miles) south of the capital Tunis, the city has 173,047 inhabitants (2004). Sousse is in the central-east of the country, on the Gulf of Hammamet, which is a part of the Mediterranean Sea. The name may be of Berber origin: similar names are found in Libya and in the south of Morocco (Bilād al-Sūs). Its economy is based on transport equipment, processed food, olive oil, textiles and tourism. It is home to the Université de Sousse.
+"
+: []
+  },
+
+
+{
+    "name": "Kiev  ",
+    "country": “Ukraine",
+    "subtitle": "\"A city with a thousand years of history behind it”\",  
+    "picture":"//c2.staticflickr.com/8/7387/13333327953_26bc37001e_k.jpg",
+    "price": 510,
+    "tags": [],
+    "pos": {
+      "lat": 50.43,
+      "lon": 30.52,
+    },
+"text": "Kiev is the capital and the largest city of Ukraine, located in the north central part of the country on the Dnieper River. The population as of July 2013 was 847,200 (though higher estimated numbers have been cited in the press), making Kiev at least 8th largest city in Europe.Kiev is an important industrial, scientific, educational, and cultural centre of Eastern Europe. It is home to many high-tech industries, higher education institutions and world-famous historical landmarks. The city has an extensive infrastructure and highly developed system of public transport, including the Kiev Metro.The city's name is said to derive from the name of Kyi, one of its four legendary founders (see Etymology, below). During its history, Kiev, one of the oldest cities in Eastern Europe, passed through several stages of great prominence and relative obscurity. The city probably existed as a commercial centre as early as the 5th century. A Slavic settlement on the great trade route between Scandinavia and Constantinople, Kiev was a tributary of the Khazars, until seized by the Varangians (Vikings) in the mid-9th century. Under Varangian rule, the city became a capital of the Kievan Rus', the first East Slavic state. Completely destroyed during the Mongol invasion in 1240, the city lost most of its influence for the centuries to come. It was a provincial capital of marginal importance in the outskirts of the territories controlled by its powerful neighbours; first the Grand Duchy of Lithuania, followed by Poland and Russia.The city prospered again during the Russian Empire's Industrial Revolution in the late 19th century. In 1917, after the Ukrainian National Republic declared independence from the Russian Empire, Kiev became its capital. From 1921 onwards Kiev was an important city of the Ukrainian Soviet Socialist Republic, and, from 1934, its capital. During World War II, the city again suffered significant damage, but quickly recovered in the post-war years, remaining the third largest city of the Soviet Union.Following the collapse of the Soviet Union and Ukrainian independence in 1991, Kiev remained the capital of Ukraine and experienced a steady migration influx of ethnic Ukrainians from other regions of the country. During the country's transformation to a market economy and electoral democracy, Kiev has continued to be Ukraine's largest and richest city. Kiev's armament-dependent industrial output fell after the Soviet collapse, adversely affecting science and technology. But new sectors of the economy such as services and finance facilitated Kiev's growth in salaries and investment, as well as providing continuous funding for the development of housing and urban infrastructure. Kiev emerged as the most pro-Western and pro-democracy region of Ukraine where parties advocating tighter integration with the European Union dominate during elections.
+
+"
+: []
+  },
+
+
+{
+    "name": "Sharjah",
+    "country": “ United Arab Emirates",
+    "subtitle": "\"The big market”\",  
+    "picture":"//c2.staticflickr.com/6/5521/12113303986_e79a9f71eb_k.jpg",
+    "price": 810,
+    "tags": [],
+    "pos": {
+      "lat": 25.3622222,
+      "lon": 55.3911111,
+    },
+"text": "Sharjah is one of the emirates of the United Arab Emirates (UAE). The emirate covers 2,600 km² (1,003 mi²) and has a population of over 800,000 (2008). The emirate of Sharjah comprises the city of Sharjah (the seat of the emirate), and other minor towns and enclaves such as Kalba, Dibba Al-Hisn and Khor Fakkan.The emirate is a constitutional monarchy of the Al Qasimi dynasty. It has been ruled by Sultan bin Mohamed Al-Qasimi since 1972.
+
+
+"
+: []
+  },
+
+
+{
+    "name": "Jeju ",
+    "country": “ South Korea",
+    "subtitle": "\"The Hawaii of Korea”\",  
+    "picture":"//c1.staticflickr.com/7/6023/5983298210_7d8ecd6dde_b.jpg",
+    "price": 1210,
+    "tags": [],
+    "pos": {
+      "lat": 33.5,
+      "lon": 126.516666667,
+    },
+ "Jeju (Jeju-si) is the capital of Jeju province in South Korea and the largest city on the island of Jeju. The city is served by Jeju International Airport (IATA code CJU).Located in a southern part of Korea, on an island off the Korean peninsula, the weather is mild and warm during much of the year. The city is a well-known resort, with prestigious hotels and public casino facilities. In 2011, 9.9 million passengers flew between the two cities of Seoul and Jeju, making the Gimpo–Jeju route the world's busiest passenger air route. Jeju welcomes over four million visitors from mainland Korea, Japan, and China every year."
+: []
+  },
+
+{
+    "name": "Krabi",
+    "country": “ Thailand ",
+    "subtitle": "\"the Land of Smiles”\",  
+    "picture":"//c2.staticflickr.com/4/3880/14170315707_6a62a027c0_k.jpg",
+    "price": 1120,
+    "tags": [],
+    "pos": {
+      "lat": 8.066667,
+      "lon": 98.916667,
+    },
+ "The southern Thailand town of Krabi serves as base camp for exploring the province of the same name, a lush region of jungles, limestone cliffs and idyllic isles floating just offshore in the Andaman Sea. Buddhist shrines still used by local monks are tucked into the chambers of the town's top attraction, Tiger Cave. The riverside pier links travelers with ferries and longboats to the best scuba diving, rock climbing and white sand beaches on the coast."
+: []
+  },
+
+
+
